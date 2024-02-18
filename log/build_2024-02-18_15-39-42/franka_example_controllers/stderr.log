@@ -1,0 +1,17 @@
+In file included from [01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:15[m[K:
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:114:42:[m[K [01;31m[Kerror: [m[K‘[01m[KIDENTITY[m[K’ was not declared in this scope
+  114 |     Eigen::Matrix<double, 6, 6> Lambda = [01;31m[KIDENTITY[m[K;                                           // operational space mass matrix
+      |                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:115:38:[m[K [01;31m[Kerror: [m[K‘[01m[KIDENTITY[m[K’ was not declared in this scope
+  115 |     Eigen::Matrix<double, 6, 6> Sm = [01;31m[KIDENTITY[m[K;                                               // task space selection matrix for positions and rotation
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:145:37:[m[K [01;31m[Kerror: [m[K‘[01m[KIDENTITY[m[K’ was not declared in this scope
+  145 |     Eigen::Matrix<double, 6, 6> T = [01;31m[KIDENTITY[m[K;                                                // impedance inertia term
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:[m[K In member function ‘[01m[Kvoid franka_example_controllers::JointImpedanceExampleController::topic_callback(std::shared_ptr<franka_msgs::msg::FrankaRobotState_<std::allocator<void> > >)[m[K’:
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:179:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<franka_msgs::msg::FrankaRobotState_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ko_f_ext_hat_k[m[K’
+  179 |   O_F_ext_hat_K = msg.[01;31m[Ko_f_ext_hat_k[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/franka_example_controllers.dir/build.make:90: CMakeFiles/franka_example_controllers.dir/src/joint_impedance_example_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/franka_example_controllers.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

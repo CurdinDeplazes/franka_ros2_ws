@@ -1,0 +1,128 @@
+[0.035s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers': CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/cartesian_impedance_controller:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/cartesian_impedance_controller/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/franka_example_controllers
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.096s] -- The CXX compiler identification is GNU 11.4.0
+[0.101s] -- Detecting C compiler ABI info
+[0.140s] -- Detecting C compiler ABI info - done
+[0.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.147s] -- Detecting CXX compiler ABI info
+[0.191s] -- Detecting CXX compiler ABI info - done
+[0.195s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.195s] -- Detecting CXX compile features
+[0.196s] -- Detecting CXX compile features - done
+[0.197s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.296s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.349s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.375s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.378s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.384s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.392s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.447s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.449s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.508s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.524s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.550s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.556s] -- Looking for pthread.h
+[0.597s] -- Looking for pthread.h - found
+[0.597s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.640s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.641s] -- Found Threads: TRUE  
+[0.731s] -- Found controller_interface: 2.32.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.116s] -- Found franka_msgs: 0.1.8 (/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+[1.166s] -- Found franka_semantic_components: 0.1.0 (/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+[1.388s] -- Found generate_parameter_library: 0.3.7 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.389s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.788s] -- Found ament_cmake_clang_format: 0.12.10 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[1.789s] -- Found ament_cmake_copyright: 0.12.8 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[1.790s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.791s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.792s] -- Found ament_cmake_lint_cmake: 0.12.8 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[1.794s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.795s] -- Found ament_cmake_xmllint: 0.12.8 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[1.796s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.797s] -- Found controller_manager: 2.37.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.973s] -- Found ros2_control_test_assets: 2.37.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.976s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.979s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.980s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.306s] -- Configuring done
+[2.358s] -- Generating done
+[2.360s] -- Build files have been written to: /home/curdin/franka_ros2_ws/build/franka_example_controllers
+[2.368s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers' returned '0': CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/cartesian_impedance_controller:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/cartesian_impedance_controller/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/franka_example_controllers
+[2.369s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers': CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/cartesian_impedance_controller:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/cartesian_impedance_controller/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_example_controllers -- -j20 -l20
+[2.398s] [  4%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/curdin/franka_ros2_ws/build/franka_example_controllers/franka_example_controllers_parameters/include//franka_example_controllers_parameters.hpp /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/model_example_controller_parameters.yaml `[0m
+[2.398s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.399s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.399s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.485s] [ 16%] Built target franka_example_controllers_parameters
+[2.499s] [ 20%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/joint_impedance_example_controller.cpp.o[0m
+[2.500s] [ 25%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o[0m
+[2.500s] [ 29%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o[0m
+[2.501s] [ 37%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o[0m
+[2.501s] [ 37%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o[0m
+[2.501s] [ 41%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o[0m
+[2.501s] [ 50%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o[0m
+[2.501s] [ 50%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o[0m
+[2.502s] [ 54%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o[0m
+[3.167s] [ 58%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.190s] [ 58%] Built target gmock_main
+[6.958s] [ 62%] [32m[1mLinking CXX shared library libfranka_example_controllers.so[0m
+[7.076s] [ 62%] Built target franka_example_controllers
+[8.101s] [ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[8.125s] [ 66%] Built target gmock
+[8.139s] [ 79%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_test_load_move_to_start.dir/test/test_load_move_to_start_example_controller.cpp.o[0m
+[8.139s] [ 79%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_gravity_test.dir/test/test_gravity_compensation_example.cpp.o[0m
+[8.139s] [ 79%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_test.dir/test/test_load_gravity_compensation_controller.cpp.o[0m
+[8.142s] [ 83%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o[0m
+[11.026s] [ 87%] [32m[1mLinking CXX executable franka_example_controllers_gravity_test[0m
+[11.156s] [ 87%] Built target franka_example_controllers_gravity_test
+[11.381s] [ 91%] [32m[1mLinking CXX executable franka_example_controllers_test_load_move_to_start[0m
+[11.389s] [ 95%] [32m[1mLinking CXX executable franka_example_controllers_test[0m
+[11.505s] [ 95%] Built target franka_example_controllers_test_load_move_to_start
+[11.513s] [ 95%] Built target franka_example_controllers_test
+[11.677s] [100%] [32m[1mLinking CXX executable franka_example_controllers_move_to_start_test[0m
+[11.796s] [100%] Built target franka_example_controllers_move_to_start_test
+[11.804s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers' returned '0': CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/cartesian_impedance_controller:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/cartesian_impedance_controller/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_example_controllers -- -j20 -l20
+[11.845s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers': CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/cartesian_impedance_controller:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/cartesian_impedance_controller/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_example_controllers
+[11.849s] -- Install configuration: "Release"
+[11.849s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers_parameters
+[11.849s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers_parameters/franka_example_controllers_parameters.hpp
+[11.849s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/franka_example_controllers.xml
+[11.849s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/lib/libfranka_example_controllers.so
+[11.850s] -- Set runtime path of "/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib/libfranka_example_controllers.so" to ""
+[11.850s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include
+[11.850s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers
+[11.850s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/motion_generator.hpp
+[11.850s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/elbow_example_controller.hpp
+[11.850s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/joint_position_example_controller.hpp
+[11.850s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/move_to_start_example_controller.hpp
+[11.850s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/joint_velocity_example_controller.hpp
+[11.850s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/visibility_control.h
+[11.850s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp
+[11.850s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/model_example_controller.hpp
+[11.850s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_velocity_example_controller.hpp
+[11.850s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/gravity_compensation_example_controller.hpp
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.sh
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.dsv
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/package_run_dependencies/franka_example_controllers
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/parent_prefix_path/franka_example_controllers
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.sh
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.dsv
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.sh
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.dsv
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.bash
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.sh
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.zsh
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.dsv
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/packages/franka_example_controllers
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_example_controllers
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig.cmake
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig-version.cmake
+[11.851s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.xml
+[11.853s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers' returned '0': CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/cartesian_impedance_controller:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/cartesian_impedance_controller/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_example_controllers

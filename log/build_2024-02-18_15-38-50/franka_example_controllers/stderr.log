@@ -1,0 +1,176 @@
+In file included from [01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:15[m[K:
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:55:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_msgs[m[K’ was not declared in this scope
+   55 |     rclcpp::Subscription<[01;31m[Kfranka_msgs[m[K::msg::FrankaRobotState>::SharedPtr franka_state_subscriber = nullptr;
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:55:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   55 |     rclcpp::Subscription<franka_msgs::msg::FrankaRobotState[01;31m[K>[m[K::SharedPtr franka_state_subscriber = nullptr;
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:55:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:55:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:55:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:55:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   55 |     rclcpp::Subscription<franka_msgs::msg::FrankaRobotState>::[01;31m[KSharedPtr[m[K franka_state_subscriber = nullptr;
+      |                                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                                        [32m[K;[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:55:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_state_subscriber[m[K’ does not name a type
+   55 |     rclcpp::Subscription<franka_msgs::msg::FrankaRobotState>::SharedPtr [01;31m[Kfranka_state_subscriber[m[K = nullptr;
+      |                                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:58:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_msgs[m[K’ was not declared in this scope
+   58 |     void topic_callback(const std::shared_ptr<[01;31m[Kfranka_msgs[m[K::msg::FrankaRobotState> msg);
+      |                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:58:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   58 |     void topic_callback(const std::shared_ptr<franka_msgs::msg::FrankaRobotState[01;31m[K>[m[K msg);
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:58:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_msgs[m[K’ was not declared in this scope
+   58 |     void topic_callback(const std::shared_ptr<[01;31m[Kfranka_msgs[m[K::msg::FrankaRobotState> msg);
+      |                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:58:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   58 |     void topic_callback(const std::shared_ptr<franka_msgs::msg::FrankaRobotState[01;31m[K>[m[K msg);
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:58:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_msgs[m[K’ was not declared in this scope
+   58 |     void topic_callback(const std::shared_ptr<[01;31m[Kfranka_msgs[m[K::msg::FrankaRobotState> msg);
+      |                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:58:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   58 |     void topic_callback(const std::shared_ptr<franka_msgs::msg::FrankaRobotState[01;31m[K>[m[K msg);
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:58:31:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   58 |     void topic_callback(const [01;31m[Kstd[m[K::shared_ptr<franka_msgs::msg::FrankaRobotState> msg);
+      |                               [01;31m[K^~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:58:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_msgs[m[K’ has not been declared
+   58 |     void topic_callback(const std::shared_ptr<[01;31m[Kfranka_msgs[m[K::msg::FrankaRobotState> msg);
+      |                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:58:25:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   58 |     void topic_callback([01;31m[Kconst[m[K std::shared_ptr<franka_msgs::msg::FrankaRobotState> msg);
+      |                         [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:15[m[K:
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:83:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_hardware[m[K’ does not name a type
+   83 |     [01;31m[Kfranka_hardware[m[K::FrankaHardwareInterface interfaceClass;
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:84:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_semantic_components[m[K’ was not declared in this scope
+   84 |     std::unique_ptr<[01;31m[Kfranka_semantic_components[m[K::FrankaRobotModel> franka_robot_model_;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:84:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   84 |     std::unique_ptr<franka_semantic_components::FrankaRobotModel[01;31m[K>[m[K franka_robot_model_;
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:84:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:89:42:[m[K [01;31m[Kerror: [m[K‘[01m[KIDENTITY[m[K’ was not declared in this scope
+   89 |     Eigen::Matrix<double, 6, 6> Lambda = [01;31m[KIDENTITY[m[K;                                           // operational space mass matrix
+      |                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:90:38:[m[K [01;31m[Kerror: [m[K‘[01m[KIDENTITY[m[K’ was not declared in this scope
+   90 |     Eigen::Matrix<double, 6, 6> Sm = [01;31m[KIDENTITY[m[K;                                               // task space selection matrix for positions and rotation
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:120:37:[m[K [01;31m[Kerror: [m[K‘[01m[KIDENTITY[m[K’ was not declared in this scope
+  120 |     Eigen::Matrix<double, 6, 6> T = [01;31m[KIDENTITY[m[K;                                                // impedance inertia term
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::InterfaceConfiguration franka_example_controllers::JointImpedanceExampleController::state_interface_configuration() const[m[K’:
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:113:65:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  113 |   for (const auto& franka_robot_model_name : franka_robot_model_[01;31m[K->[m[Kget_state_interface_names()) {
+      |                                                                 [01;31m[K^~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn franka_example_controllers::JointImpedanceExampleController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:136:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_semantic_components[m[K’ was not declared in this scope
+  136 |   franka_robot_model_ = std::make_unique<[01;31m[Kfranka_semantic_components[m[K::FrankaRobotModel>(
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:136:30:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  136 |   franka_robot_model_ = std::[01;31m[Kmake_unique<franka_semantic_components::FrankaRobotModel>[m[K(
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:137:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_semantic_components[m[K’ is not a class, namespace, or enumeration
+  137 |   [01;31m[Kfranka_semantic_components[m[K::FrankaRobotModel(robot_name_ + "/" + k_robot_model_interface_name,
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:141:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_state_subscriber[m[K’ was not declared in this scope
+  141 |     [01;31m[Kfranka_state_subscriber[m[K = get_node()->create_subscription<franka_msgs::msg::FrankaRobotState>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:141:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_msgs[m[K’ was not declared in this scope
+  141 |     franka_state_subscriber = get_node()->create_subscription<[01;31m[Kfranka_msgs[m[K::msg::FrankaRobotState>(
+      |                                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:141:43:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  141 |     franka_state_subscriber = get_node()->[01;31m[Kcreate_subscription<franka_msgs::msg::FrankaRobotState>[m[K(
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:141:98:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp_lifecycle::LifecycleNode::create_subscription<<expression error> >(const char [43], rclcpp::SystemDefaultsQoS, std::_Bind_helper<false, void (franka_example_controllers::JointImpedanceExampleController::*)(...), franka_example_controllers::JointImpedanceExampleController*, const std::_Placeholder<1>&>::type)[m[K’
+  141 |     franka_state_subscriber = [01;31m[Kget_node()->create_subscription<franka_msgs::msg::FrankaRobotState>([m[K
+      |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  142 | [01;31m[K    "franka_robot_state_broadcaster/robot_state", rclcpp::SystemDefaultsQoS(),[m[K
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                    
+  143 | [01;31m[K    std::bind(&JointImpedanceExampleController::topic_callback, this, std::placeholders::_1))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K     
+In file included from [01m[K/opt/ros/humble/include/controller_interface/controller_interface_base.hpp:29[m[K,
+                 from [01m[K/opt/ros/humble/include/controller_interface/controller_interface.hpp:22[m[K,
+                 from [01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp:20[m[K,
+                 from [01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:234:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp_lifecycle::LifecycleNode::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  234 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:234:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:141:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  141 |     franka_state_subscriber = [01;31m[Kget_node()->create_subscription<franka_msgs::msg::FrankaRobotState>([m[K
+      |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  142 | [01;31m[K    "franka_robot_state_broadcaster/robot_state", rclcpp::SystemDefaultsQoS(),[m[K
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                    
+  143 | [01;31m[K    std::bind(&JointImpedanceExampleController::topic_callback, this, std::placeholders::_1))[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K     
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn franka_example_controllers::JointImpedanceExampleController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:158:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  158 |   franka_robot_model_[01;31m[K->[m[Kassign_loaned_state_interfaces(state_interfaces_);
+      |                      [01;31m[K^~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:160:60:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  160 |   std::array<double, 16> initial_pose = franka_robot_model_[01;31m[K->[m[KgetPoseMatrix(franka::Frame::kEndEffector);
+      |                                                            [01;31m[K^~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:160:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka[m[K’ has not been declared
+  160 |   std::array<double, 16> initial_pose = franka_robot_model_->getPoseMatrix([01;31m[Kfranka[m[K::Frame::kEndEffector);
+      |                                                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn franka_example_controllers::JointImpedanceExampleController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:171:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  171 |   franka_robot_model_[01;31m[K->[m[Krelease_interfaces();
+      |                      [01;31m[K^~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:[m[K At global scope:
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:176:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_msgs[m[K’ was not declared in this scope
+  176 | void JointImpedanceExampleController::topic_callback(const std::shared_ptr<[01;31m[Kfranka_msgs[m[K::msg::FrankaRobotState> msg) {
+      |                                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:176:110:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  176 | void JointImpedanceExampleController::topic_callback(const std::shared_ptr<franka_msgs::msg::FrankaRobotState[01;31m[K>[m[K msg) {
+      |                                                                                                              [01;31m[K^[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:176:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_msgs[m[K’ was not declared in this scope
+  176 | void JointImpedanceExampleController::topic_callback(const std::shared_ptr<[01;31m[Kfranka_msgs[m[K::msg::FrankaRobotState> msg) {
+      |                                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:176:110:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  176 | void JointImpedanceExampleController::topic_callback(const std::shared_ptr<franka_msgs::msg::FrankaRobotState[01;31m[K>[m[K msg) {
+      |                                                                                                              [01;31m[K^[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:176:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_msgs[m[K’ was not declared in this scope
+  176 | void JointImpedanceExampleController::topic_callback(const std::shared_ptr<[01;31m[Kfranka_msgs[m[K::msg::FrankaRobotState> msg) {
+      |                                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:176:110:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  176 | void JointImpedanceExampleController::topic_callback(const std::shared_ptr<franka_msgs::msg::FrankaRobotState[01;31m[K>[m[K msg) {
+      |                                                                                                              [01;31m[K^[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:176:60:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  176 | void JointImpedanceExampleController::topic_callback(const [01;31m[Kstd[m[K::shared_ptr<franka_msgs::msg::FrankaRobotState> msg) {
+      |                                                            [01;31m[K^~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:176:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_msgs[m[K’ was not declared in this scope
+  176 | void JointImpedanceExampleController::topic_callback(const std::shared_ptr<[01;31m[Kfranka_msgs[m[K::msg::FrankaRobotState> msg) {
+      |                                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:176:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Ktopic_callback[m[K’ declared void
+  176 | void [01;31m[KJointImpedanceExampleController[m[K::topic_callback(const std::shared_ptr<franka_msgs::msg::FrankaRobotState> msg) {
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:176:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+  176 | void JointImpedanceExampleController::topic_callback([01;31m[Kconst[m[K std::shared_ptr<franka_msgs::msg::FrankaRobotState> msg) {
+      |                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type franka_example_controllers::JointImpedanceExampleController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:199:52:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  199 |   std::array<double, 49> mass = franka_robot_model_[01;31m[K->[m[KgetMassMatrix();
+      |                                                    [01;31m[K^~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:200:61:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  200 |   std::array<double, 7> coriolis_array = franka_robot_model_[01;31m[K->[m[KgetCoriolisForceVector();
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:201:63:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  201 |   std::array<double, 42> jacobian_array =  franka_robot_model_[01;31m[K->[m[KgetZeroJacobian(franka::Frame::kEndEffector);
+      |                                                               [01;31m[K^~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:201:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka[m[K’ has not been declared
+  201 |   std::array<double, 42> jacobian_array =  franka_robot_model_->getZeroJacobian([01;31m[Kfranka[m[K::Frame::kEndEffector);
+      |                                                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:202:52:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  202 |   std::array<double, 16> pose = franka_robot_model_[01;31m[K->[m[KgetPoseMatrix(franka::Frame::kEndEffector);
+      |                                                    [01;31m[K^~[m[K
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_impedance_example_controller.cpp:202:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka[m[K’ has not been declared
+  202 |   std::array<double, 16> pose = franka_robot_model_->getPoseMatrix([01;31m[Kfranka[m[K::Frame::kEndEffector);
+      |                                                                    [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/franka_example_controllers.dir/build.make:90: CMakeFiles/franka_example_controllers.dir/src/joint_impedance_example_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/franka_example_controllers.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
