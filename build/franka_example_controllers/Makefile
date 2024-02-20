@@ -327,6 +327,30 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+src/cartesian_impedance_controller.o: src/cartesian_impedance_controller.cpp.o
+.PHONY : src/cartesian_impedance_controller.o
+
+# target to build an object file
+src/cartesian_impedance_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o
+.PHONY : src/cartesian_impedance_controller.cpp.o
+
+src/cartesian_impedance_controller.i: src/cartesian_impedance_controller.cpp.i
+.PHONY : src/cartesian_impedance_controller.i
+
+# target to preprocess a source file
+src/cartesian_impedance_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.i
+.PHONY : src/cartesian_impedance_controller.cpp.i
+
+src/cartesian_impedance_controller.s: src/cartesian_impedance_controller.cpp.s
+.PHONY : src/cartesian_impedance_controller.s
+
+# target to generate assembly for a file
+src/cartesian_impedance_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.s
+.PHONY : src/cartesian_impedance_controller.cpp.s
+
 src/cartesian_velocity_example_controller.o: src/cartesian_velocity_example_controller.cpp.o
 .PHONY : src/cartesian_velocity_example_controller.o
 
@@ -398,30 +422,6 @@ src/gravity_compensation_example_controller.s: src/gravity_compensation_example_
 src/gravity_compensation_example_controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.s
 .PHONY : src/gravity_compensation_example_controller.cpp.s
-
-src/joint_impedance_example_controller.o: src/joint_impedance_example_controller.cpp.o
-.PHONY : src/joint_impedance_example_controller.o
-
-# target to build an object file
-src/joint_impedance_example_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/joint_impedance_example_controller.cpp.o
-.PHONY : src/joint_impedance_example_controller.cpp.o
-
-src/joint_impedance_example_controller.i: src/joint_impedance_example_controller.cpp.i
-.PHONY : src/joint_impedance_example_controller.i
-
-# target to preprocess a source file
-src/joint_impedance_example_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/joint_impedance_example_controller.cpp.i
-.PHONY : src/joint_impedance_example_controller.cpp.i
-
-src/joint_impedance_example_controller.s: src/joint_impedance_example_controller.cpp.s
-.PHONY : src/joint_impedance_example_controller.s
-
-# target to generate assembly for a file
-src/joint_impedance_example_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/joint_impedance_example_controller.cpp.s
-.PHONY : src/joint_impedance_example_controller.cpp.s
 
 src/joint_position_example_controller.o: src/joint_position_example_controller.cpp.o
 .PHONY : src/joint_position_example_controller.o
@@ -664,6 +664,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... src/cartesian_impedance_controller.o"
+	@echo "... src/cartesian_impedance_controller.i"
+	@echo "... src/cartesian_impedance_controller.s"
 	@echo "... src/cartesian_velocity_example_controller.o"
 	@echo "... src/cartesian_velocity_example_controller.i"
 	@echo "... src/cartesian_velocity_example_controller.s"
@@ -673,9 +676,6 @@ help:
 	@echo "... src/gravity_compensation_example_controller.o"
 	@echo "... src/gravity_compensation_example_controller.i"
 	@echo "... src/gravity_compensation_example_controller.s"
-	@echo "... src/joint_impedance_example_controller.o"
-	@echo "... src/joint_impedance_example_controller.i"
-	@echo "... src/joint_impedance_example_controller.s"
 	@echo "... src/joint_position_example_controller.o"
 	@echo "... src/joint_position_example_controller.i"
 	@echo "... src/joint_position_example_controller.s"

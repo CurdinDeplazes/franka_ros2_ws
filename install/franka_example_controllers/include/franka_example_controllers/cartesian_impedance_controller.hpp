@@ -55,7 +55,7 @@ namespace franka_example_controllers {
 /**
  * The joint impedance example controller moves joint 4 and 5 in a very compliant periodic movement.
  */
-class JointImpedanceExampleController : public controller_interface::ControllerInterface {
+class CartesianImpedanceController : public controller_interface::ControllerInterface {
  public:
 
   [[nodiscard]] controller_interface::InterfaceConfiguration command_interface_configuration()

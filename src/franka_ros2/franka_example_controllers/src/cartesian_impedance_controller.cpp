@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <franka_example_controllers/joint_impedance_example_controller.hpp>
+#include <franka_example_controllers/cartesian_impedance_controller.hpp>
 
 #include <cassert>
 #include <cmath>
@@ -35,7 +35,7 @@ std::ostream& operator<<(std::ostream& ostream, const std::array<T, N>& array) {
 
 namespace franka_example_controllers {
 
-void JointImpedanceExampleController::update_stiffness_and_references(){
+void CartesianImpedanceController::update_stiffness_and_references(){
   //target by filtering
   /** at the moment we do not use dynamic reconfigure and control the robot via D, K and T **/
   //K = filter_params_ * cartesian_stiffness_target_ + (1.0 - filter_params_) * K;
@@ -48,21 +48,21 @@ void JointImpedanceExampleController::update_stiffness_and_references(){
 }
 
 
-void JointImpedanceExampleController::arrayToMatrix(const std::array<double,7>& inputArray, Eigen::Matrix<double,7,1>& resultMatrix)
+void CartesianImpedanceController::arrayToMatrix(const std::array<double,7>& inputArray, Eigen::Matrix<double,7,1>& resultMatrix)
 {
  for(long unsigned int i = 0; i < 7; ++i){
      resultMatrix(i,0) = inputArray[i];
    }
 }
 
-void JointImpedanceExampleController::arrayToMatrix(const std::array<double,6>& inputArray, Eigen::Matrix<double,6,1>& resultMatrix)
+void CartesianImpedanceController::arrayToMatrix(const std::array<double,6>& inputArray, Eigen::Matrix<double,6,1>& resultMatrix)
 {
  for(long unsigned int i = 0; i < 6; ++i){
      resultMatrix(i,0) = inputArray[i];
    }
 }
 
-Eigen::Matrix<double, 7, 1> JointImpedanceExampleController::saturateTorqueRate(
+Eigen::Matrix<double, 7, 1> CartesianImpedanceController::saturateTorqueRate(
   const Eigen::Matrix<double, 7, 1>& tau_d_calculated,
   const Eigen::Matrix<double, 7, 1>& tau_J_d_M) {  
   Eigen::Matrix<double, 7, 1> tau_d_saturated{};
@@ -90,7 +90,7 @@ inline void pseudoInverse(const Eigen::MatrixXd& M_, Eigen::MatrixXd& M_pinv_, b
 
 
 controller_interface::InterfaceConfiguration
-JointImpedanceExampleController::command_interface_configuration() const {
+CartesianImpedanceController::command_interface_configuration() const {
   controller_interface::InterfaceConfiguration config;
   config.type = controller_interface::interface_configuration_type::INDIVIDUAL;
   for (int i = 1; i <= num_joints; ++i) {
@@ -100,7 +100,7 @@ JointImpedanceExampleController::command_interface_configuration() const {
 }
 
 
-controller_interface::InterfaceConfiguration JointImpedanceExampleController::state_interface_configuration()
+controller_interface::InterfaceConfiguration CartesianImpedanceController::state_interface_configuration()
   const {
   controller_interface::InterfaceConfiguration state_interfaces_config;
   state_interfaces_config.type = controller_interface::interface_configuration_type::INDIVIDUAL;
@@ -127,12 +127,12 @@ controller_interface::InterfaceConfiguration JointImpedanceExampleController::st
 }
 
 
-CallbackReturn JointImpedanceExampleController::on_init() {
+CallbackReturn CartesianImpedanceController::on_init() {
   return CallbackReturn::SUCCESS;
 }
 
 
-CallbackReturn JointImpedanceExampleController::on_configure(const rclcpp_lifecycle::State& /*previous_state*/) {
+CallbackReturn CartesianImpedanceController::on_configure(const rclcpp_lifecycle::State& /*previous_state*/) {
   franka_robot_model_ = std::make_unique<franka_semantic_components::FrankaRobotModel>(
   franka_semantic_components::FrankaRobotModel(robot_name_ + "/" + k_robot_model_interface_name,
                                                robot_name_ + "/" + k_robot_state_interface_name));
@@ -140,7 +140,7 @@ CallbackReturn JointImpedanceExampleController::on_configure(const rclcpp_lifecy
   try {
     franka_state_subscriber = get_node()->create_subscription<franka_msgs::msg::FrankaRobotState>(
     "franka_robot_state_broadcaster/robot_state", rclcpp::SystemDefaultsQoS(), 
-    std::bind(&JointImpedanceExampleController::topic_callback, this, std::placeholders::_1));
+    std::bind(&CartesianImpedanceController::topic_callback, this, std::placeholders::_1));
   }
 
   catch (const std::exception& e) {
@@ -153,7 +153,7 @@ CallbackReturn JointImpedanceExampleController::on_configure(const rclcpp_lifecy
 }
 
 
-CallbackReturn JointImpedanceExampleController::on_activate(
+CallbackReturn CartesianImpedanceController::on_activate(
   const rclcpp_lifecycle::State& /*previous_state*/) {
   franka_robot_model_->assign_loaned_state_interfaces(state_interfaces_);
 
@@ -166,14 +166,14 @@ CallbackReturn JointImpedanceExampleController::on_activate(
 }
 
 
-controller_interface::CallbackReturn JointImpedanceExampleController::on_deactivate(
+controller_interface::CallbackReturn CartesianImpedanceController::on_deactivate(
   const rclcpp_lifecycle::State& /*previous_state*/) {
   franka_robot_model_->release_interfaces();
   return CallbackReturn::SUCCESS;
 }
 
 
-void JointImpedanceExampleController::topic_callback(const std::shared_ptr<franka_msgs::msg::FrankaRobotState> msg) {
+void CartesianImpedanceController::topic_callback(const std::shared_ptr<franka_msgs::msg::FrankaRobotState> msg) {
   tau_J_d = msg->tau_j_d;
   arrayToMatrix(tau_J_d, tau_J_d_M);
   O_F_ext_hat_K = msg->o_f_ext_hat_k;
@@ -183,7 +183,7 @@ void JointImpedanceExampleController::topic_callback(const std::shared_ptr<frank
 }
 
 
-void JointImpedanceExampleController::updateJointStates() {
+void CartesianImpedanceController::updateJointStates() {
   for (auto i = 0; i < num_joints; ++i) {
     const auto& position_interface = state_interfaces_.at(2 * i);
     const auto& velocity_interface = state_interfaces_.at(2 * i + 1);
@@ -195,7 +195,7 @@ void JointImpedanceExampleController::updateJointStates() {
 }
 
 
-controller_interface::return_type JointImpedanceExampleController::update(const rclcpp::Time& /*time*/, const rclcpp::Duration& /*period*/) {      
+controller_interface::return_type CartesianImpedanceController::update(const rclcpp::Time& /*time*/, const rclcpp::Duration& /*period*/) {      
   std::array<double, 49> mass = franka_robot_model_->getMassMatrix();
   std::array<double, 7> coriolis_array = franka_robot_model_->getCoriolisForceVector();
   std::array<double, 42> jacobian_array =  franka_robot_model_->getZeroJacobian(franka::Frame::kEndEffector);
@@ -298,5 +298,5 @@ controller_interface::return_type JointImpedanceExampleController::update(const 
 // namespace franka_example_controllers
 #include "pluginlib/class_list_macros.hpp"
 // NOLINTNEXTLINE
-PLUGINLIB_EXPORT_CLASS(franka_example_controllers::JointImpedanceExampleController,
+PLUGINLIB_EXPORT_CLASS(franka_example_controllers::CartesianImpedanceController,
                        controller_interface::ControllerInterface)

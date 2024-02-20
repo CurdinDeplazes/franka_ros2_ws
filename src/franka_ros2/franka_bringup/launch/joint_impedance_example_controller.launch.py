@@ -71,7 +71,7 @@ def generate_launch_description():
         Node(
             package='controller_manager',
             executable='spawner',
-            arguments=['joint_impedance_example_controller'],
+            arguments=['cartesian_impedance_controller'],
             output='screen',
         ),
     ])
