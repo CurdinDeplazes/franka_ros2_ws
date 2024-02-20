@@ -1,0 +1,4 @@
+gmake[2]: *** No rule to make target '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/model_example_controller_parameters.yaml', needed by 'franka_example_controllers_parameters/include/franka_example_controllers_parameters.hpp'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/franka_example_controllers_parameters.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

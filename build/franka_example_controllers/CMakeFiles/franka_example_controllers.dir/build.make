@@ -69,24 +69,10 @@ include CMakeFiles/franka_example_controllers.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/franka_example_controllers.dir/flags.make
 
-CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/flags.make
-CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o: /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/gravity_compensation_example_controller.cpp
-CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/curdin/franka_ros2_ws/build/franka_example_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o -MF CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o.d -o CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o -c /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/gravity_compensation_example_controller.cpp
-
-CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/gravity_compensation_example_controller.cpp > CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.i
-
-CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/gravity_compensation_example_controller.cpp -o CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.s
-
 CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/flags.make
 CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o: /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/cartesian_impedance_controller.cpp
 CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/curdin/franka_ros2_ws/build/franka_example_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/curdin/franka_ros2_ws/build/franka_example_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o -MF CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o.d -o CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o -c /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/cartesian_impedance_controller.cpp
 
 CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.i: cmake_force
@@ -97,128 +83,14 @@ CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/cartesian_impedance_controller.cpp -o CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.s
 
-CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/flags.make
-CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o: /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_velocity_example_controller.cpp
-CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/curdin/franka_ros2_ws/build/franka_example_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o -MF CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o.d -o CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o -c /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_velocity_example_controller.cpp
-
-CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_velocity_example_controller.cpp > CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.i
-
-CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_velocity_example_controller.cpp -o CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.s
-
-CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/flags.make
-CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o: /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_position_example_controller.cpp
-CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/curdin/franka_ros2_ws/build/franka_example_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o -MF CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o.d -o CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o -c /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_position_example_controller.cpp
-
-CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_position_example_controller.cpp > CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.i
-
-CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/joint_position_example_controller.cpp -o CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.s
-
-CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/flags.make
-CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o: /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/cartesian_velocity_example_controller.cpp
-CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/curdin/franka_ros2_ws/build/franka_example_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o -MF CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o.d -o CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o -c /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/cartesian_velocity_example_controller.cpp
-
-CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/cartesian_velocity_example_controller.cpp > CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.i
-
-CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/cartesian_velocity_example_controller.cpp -o CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.s
-
-CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/flags.make
-CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o: /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/elbow_example_controller.cpp
-CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/curdin/franka_ros2_ws/build/franka_example_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o -MF CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o.d -o CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o -c /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/elbow_example_controller.cpp
-
-CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/elbow_example_controller.cpp > CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.i
-
-CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/elbow_example_controller.cpp -o CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.s
-
-CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/flags.make
-CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o: /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/model_example_controller.cpp
-CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/curdin/franka_ros2_ws/build/franka_example_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o -MF CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o.d -o CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o -c /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/model_example_controller.cpp
-
-CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/model_example_controller.cpp > CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.i
-
-CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/model_example_controller.cpp -o CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.s
-
-CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/flags.make
-CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o: /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/move_to_start_example_controller.cpp
-CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o: CMakeFiles/franka_example_controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/curdin/franka_ros2_ws/build/franka_example_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o -MF CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o.d -o CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o -c /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/move_to_start_example_controller.cpp
-
-CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/move_to_start_example_controller.cpp > CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.i
-
-CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/move_to_start_example_controller.cpp -o CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.s
-
-CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o: CMakeFiles/franka_example_controllers.dir/flags.make
-CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o: /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/motion_generator.cpp
-CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o: CMakeFiles/franka_example_controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/curdin/franka_ros2_ws/build/franka_example_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o -MF CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o.d -o CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o -c /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/motion_generator.cpp
-
-CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/motion_generator.cpp > CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.i
-
-CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/motion_generator.cpp -o CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.s
-
 # Object files for target franka_example_controllers
 franka_example_controllers_OBJECTS = \
-"CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o" \
-"CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o" \
-"CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o" \
-"CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o" \
-"CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o" \
-"CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o" \
-"CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o" \
-"CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o" \
-"CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o"
+"CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o"
 
 # External object files for target franka_example_controllers
 franka_example_controllers_EXTERNAL_OBJECTS =
 
-libfranka_example_controllers.so: CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o
 libfranka_example_controllers.so: CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o
-libfranka_example_controllers.so: CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o
-libfranka_example_controllers.so: CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o
-libfranka_example_controllers.so: CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o
-libfranka_example_controllers.so: CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o
-libfranka_example_controllers.so: CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o
-libfranka_example_controllers.so: CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o
-libfranka_example_controllers.so: CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o
 libfranka_example_controllers.so: CMakeFiles/franka_example_controllers.dir/build.make
 libfranka_example_controllers.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libfranka_example_controllers.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
@@ -439,7 +311,7 @@ libfranka_example_controllers.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libfranka_example_controllers.so: /opt/ros/humble/lib/librcutils.so
 libfranka_example_controllers.so: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
 libfranka_example_controllers.so: CMakeFiles/franka_example_controllers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/curdin/franka_ros2_ws/build/franka_example_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library libfranka_example_controllers.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/curdin/franka_ros2_ws/build/franka_example_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libfranka_example_controllers.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/franka_example_controllers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
