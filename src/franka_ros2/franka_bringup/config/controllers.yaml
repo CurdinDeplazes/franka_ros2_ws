@@ -6,7 +6,7 @@ controller_manager:
       type: franka_example_controllers/GravityCompensationExampleController
 
     cartesian_impedance_controller:
-      type: franka_example_controllers/CartesianImpedanceController
+      type: cartesian_impedance_control/CartesianImpedanceController
 
     joint_velocity_example_controller:
       type: franka_example_controllers/JointVelocityExampleController

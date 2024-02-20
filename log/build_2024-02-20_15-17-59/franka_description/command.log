@@ -1,0 +1,4 @@
+Invoking command in '/home/curdin/franka_ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_description -- -j20 -l20
+Invoked command in '/home/curdin/franka_ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_description -- -j20 -l20
+Invoking command in '/home/curdin/franka_ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_description
+Invoked command in '/home/curdin/franka_ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_description

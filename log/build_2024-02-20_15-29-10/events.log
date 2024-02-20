@@ -1,0 +1,16 @@
+[0.000000] (-) TimerEvent: {}
+[0.000132] (-) JobUnselected: {'identifier': 'franka_bringup'}
+[0.000207] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.000218] (-) JobUnselected: {'identifier': 'franka_example_controllers'}
+[0.000336] (-) JobUnselected: {'identifier': 'franka_gripper'}
+[0.000344] (-) JobUnselected: {'identifier': 'franka_hardware'}
+[0.000352] (-) JobUnselected: {'identifier': 'franka_moveit_config'}
+[0.000359] (-) JobUnselected: {'identifier': 'franka_msgs'}
+[0.000367] (-) JobUnselected: {'identifier': 'franka_robot_state_broadcaster'}
+[0.000375] (-) JobUnselected: {'identifier': 'franka_semantic_components'}
+[0.000382] (-) JobUnselected: {'identifier': 'integration_launch_testing'}
+[0.000392] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000402] (cartesian_impedance_control) JobQueued: {'identifier': 'cartesian_impedance_control', 'dependencies': OrderedDict([('franka_msgs', '/home/curdin/franka_ros2_ws/install/franka_msgs'), ('franka_hardware', '/home/curdin/franka_ros2_ws/install/franka_hardware'), ('franka_semantic_components', '/home/curdin/franka_ros2_ws/install/franka_semantic_components')])}
+[0.000452] (cartesian_impedance_control) JobStarted: {'identifier': 'cartesian_impedance_control'}
+[0.040594] (cartesian_impedance_control) JobEnded: {'identifier': 'cartesian_impedance_control', 'rc': 1}
+[0.051082] (-) EventReactorShutdown: {}

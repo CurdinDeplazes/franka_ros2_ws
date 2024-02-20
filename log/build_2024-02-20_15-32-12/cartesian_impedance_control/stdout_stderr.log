@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[  6%] Built target franka_example_controllers_parameters
+[ 18%] Built target gmock_main
+[35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control[0m
+[ 37%] Built target gmock
+[35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_test[0m
+[35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_test_load_move_to_start[0m
+[ 50%] Built target cartesian_impedance_control
+[ 62%] Built target cartesian_impedance_control_test
+[35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_gravity_test[0m
+[ 75%] Built target cartesian_impedance_control_test_load_move_to_start
+[35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_move_to_start_test[0m
+[ 81%] [32m[1mLinking CXX executable cartesian_impedance_control_gravity_test[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o[0m
+/usr/bin/ld: CMakeFiles/cartesian_impedance_control_gravity_test.dir/test/test_gravity_compensation_example.cpp.o: warning: relocation against `_ZTVN26franka_example_controllers36GravityCompensationExampleControllerE' in read-only section `.text'
+/usr/bin/ld: CMakeFiles/cartesian_impedance_control_gravity_test.dir/test/test_gravity_compensation_example.cpp.o: in function `TestGravityCompensationExample::SetUp()':
+test_gravity_compensation_example.cpp:(.text+0x60): undefined reference to `vtable for franka_example_controllers::GravityCompensationExampleController'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/cartesian_impedance_control_gravity_test.dir/build.make:317: cartesian_impedance_control_gravity_test] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/cartesian_impedance_control_gravity_test.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 93%] [32m[1mLinking CXX executable cartesian_impedance_control_move_to_start_test[0m
+[ 93%] Built target cartesian_impedance_control_move_to_start_test
+gmake: *** [Makefile:146: all] Error 2

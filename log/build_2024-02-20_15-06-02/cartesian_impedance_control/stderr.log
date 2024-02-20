@@ -1,0 +1,17 @@
+In file included from [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/test/test_gravity_compensation_example.cpp:19[m[K:
+[01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/test/gravity_compensation_example_controller.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kfranka_example_controllers/visibility_control.h: No such file or directory
+   20 | #include [01;31m[K"franka_example_controllers/visibility_control.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cartesian_impedance_control_gravity_test.dir/build.make:76: CMakeFiles/cartesian_impedance_control_gravity_test.dir/test/test_gravity_compensation_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/cartesian_impedance_control_gravity_test.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/test/test_move_to_start_example_controller.hpp:23[m[K,
+                 from [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/test/test_move_to_start_example_controller.cpp:19[m[K:
+[01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/test/move_to_start_example_controller.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kmotion_generator.hpp: No such file or directory
+   24 | #include [01;31m[K"motion_generator.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/build.make:76: CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

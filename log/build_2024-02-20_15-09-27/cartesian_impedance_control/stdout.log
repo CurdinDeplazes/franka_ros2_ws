@@ -1,0 +1,9 @@
+[ 13%] Built target gmock_main
+[ 26%] Built target cartesian_impedance_control
+[ 46%] Built target gmock
+[35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_move_to_start_test[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/cartesian_impedance_control_gravity_test.dir/test/test_gravity_compensation_example.cpp.o[0m
+[ 66%] Built target cartesian_impedance_control_test_load_move_to_start
+[ 80%] Built target cartesian_impedance_control_test
+[ 86%] [32m[1mLinking CXX executable cartesian_impedance_control_move_to_start_test[0m
+[ 93%] [32m[1mLinking CXX executable cartesian_impedance_control_gravity_test[0m

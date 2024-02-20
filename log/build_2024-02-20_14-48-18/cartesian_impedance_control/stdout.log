@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control[0m
+[ 13%] Built target gmock_main
+[ 33%] Built target gmock
+[ 40%] [32m[1mLinking CXX shared library libcartesian_impedance_control.so[0m
+[ 53%] Built target cartesian_impedance_control_test_load_move_to_start
+[ 66%] Built target cartesian_impedance_control_test

@@ -1,0 +1,438 @@
+[0.067s] Invoking command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control': CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/curdin/franka_ros2_ws/src/cartesian_impedance_control -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/cartesian_impedance_control
+[0.103s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.196s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.202s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.269s] -- Detecting CXX compiler ABI info - done
+[0.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.276s] -- Detecting CXX compile features
+[0.277s] -- Detecting CXX compile features - done
+[0.279s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.451s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.550s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.591s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.597s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.605s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.617s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.697s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.700s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.791s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.815s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.858s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.867s] -- Looking for pthread.h
+[0.941s] -- Looking for pthread.h - found
+[0.941s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.016s] -- Found Threads: TRUE  
+[1.158s] -- Found controller_interface: 2.32.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.737s] -- Found franka_msgs: 0.1.8 (/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+[1.811s] -- Found franka_semantic_components: 0.1.0 (/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+[2.141s] -- Found generate_parameter_library: 0.3.7 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[2.142s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.722s] -- Found ament_cmake_clang_format: 0.12.10 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[2.723s] -- Found ament_cmake_copyright: 0.12.8 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[2.725s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.727s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.728s] -- Found ament_cmake_lint_cmake: 0.12.8 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[2.730s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.732s] -- Found ament_cmake_xmllint: 0.12.8 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[2.734s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.735s] -- Found controller_manager: 2.37.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.983s] -- Found ros2_control_test_assets: 2.37.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[2.987s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.992s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.993s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.454s] -- Configuring done
+[3.531s] -- Generating done
+[3.534s] -- Build files have been written to: /home/curdin/franka_ros2_ws/build/cartesian_impedance_control
+[3.550s] Invoked command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control' returned '0': CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/curdin/franka_ros2_ws/src/cartesian_impedance_control -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/cartesian_impedance_control
+[3.552s] Invoking command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control': CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/cartesian_impedance_control -- -j20 -l20
+[3.603s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.604s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.605s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.606s] [ 26%] [32mBuilding CXX object CMakeFiles/cartesian_impedance_control.dir/src/cartesian_impedance_controller.cpp.o[0m
+[6.982s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[7.082s] [ 33%] Built target gmock_main
+[12.532s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:38:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[12.533s]    38 | void [01;31m[KCartesianImpedanceController[m[K::update_stiffness_and_references(){
+[12.533s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.560s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K In function ‘[01m[Kvoid cartesian_impedance_control::update_stiffness_and_references()[m[K’:
+[12.560s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:43:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knullspace_stiffness_[m[K’ was not declared in this scope
+[12.560s]    43 |   [01;31m[Knullspace_stiffness_[m[K = filter_params_ * nullspace_stiffness_target_ + (1.0 - filter_params_) * nullspace_stiffness_;
+[12.561s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.583s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:43:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kfilter_params_[m[K’ was not declared in this scope
+[12.583s]    43 |   nullspace_stiffness_ = [01;31m[Kfilter_params_[m[K * nullspace_stiffness_target_ + (1.0 - filter_params_) * nullspace_stiffness_;
+[12.583s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[12.613s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:43:43:[m[K [01;31m[Kerror: [m[K‘[01m[Knullspace_stiffness_target_[m[K’ was not declared in this scope
+[12.614s]    43 |   nullspace_stiffness_ = filter_params_ * [01;31m[Knullspace_stiffness_target_[m[K + (1.0 - filter_params_) * nullspace_stiffness_;
+[12.614s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.649s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:44:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition_and_orientation_d_target_mutex_[m[K’ was not declared in this scope
+[12.649s]    44 |   std::lock_guard<std::mutex> position_d_target_mutex_lock([01;31m[Kposition_and_orientation_d_target_mutex_[m[K);
+[12.649s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.670s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition_d_[m[K’ was not declared in this scope
+[12.670s]    45 |   [01;31m[Kposition_d_[m[K = filter_params_ * position_d_target_ + (1.0 - filter_params_) * position_d_;
+[12.670s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[12.697s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:45:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition_d_target_[m[K’ was not declared in this scope; did you mean ‘[01m[Kposition_d_target_mutex_lock[m[K’?
+[12.698s]    45 |   position_d_ = filter_params_ * [01;31m[Kposition_d_target_[m[K + (1.0 - filter_params_) * position_d_;
+[12.698s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.698s]       |                                  [32m[Kposition_d_target_mutex_lock[m[K
+[12.722s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_d_[m[K’ was not declared in this scope
+[12.722s]    46 |   [01;31m[Korientation_d_[m[K = orientation_d_.slerp(filter_params_, orientation_d_target_);
+[12.722s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[12.752s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:46:57:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_d_target_[m[K’ was not declared in this scope
+[12.752s]    46 |   orientation_d_ = orientation_d_.slerp(filter_params_, [01;31m[Korientation_d_target_[m[K);
+[12.752s]       |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[12.774s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[KF_contact_des[m[K’ was not declared in this scope
+[12.774s]    47 |   [01;31m[KF_contact_des[m[K = 0.05 * F_contact_target + 0.95 * F_contact_des;
+[12.775s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[12.801s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:47:26:[m[K [01;31m[Kerror: [m[K‘[01m[KF_contact_target[m[K’ was not declared in this scope
+[12.801s]    47 |   F_contact_des = 0.05 * [01;31m[KF_contact_target[m[K + 0.95 * F_contact_des;
+[12.801s]       |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[12.801s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K At global scope:
+[12.801s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:51:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[12.801s]    51 | void [01;31m[KCartesianImpedanceController[m[K::arrayToMatrix(const std::array<double,7>& inputArray, Eigen::Matrix<double,7,1>& resultMatrix)
+[12.801s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.810s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:58:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[12.810s]    58 | void [01;31m[KCartesianImpedanceController[m[K::arrayToMatrix(const std::array<double,6>& inputArray, Eigen::Matrix<double,6,1>& resultMatrix)
+[12.810s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.814s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:65:29:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[12.814s]    65 | Eigen::Matrix<double, 7, 1> [01;31m[KCartesianImpedanceController[m[K::saturateTorqueRate(
+[12.815s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.838s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K In function ‘[01m[KEigen::Matrix<double, 7, 1> cartesian_impedance_control::saturateTorqueRate(const Eigen::Matrix<double, 7, 1>&, const Eigen::Matrix<double, 7, 1>&)[m[K’:
+[12.838s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:72:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kdelta_tau_max_[m[K’ was not declared in this scope
+[12.838s]    72 |          tau_J_d_M[i] + std::max(std::min(difference, [01;31m[Kdelta_tau_max_[m[K), -delta_tau_max_);
+[12.838s]       |                                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.158s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K At global scope:
+[13.158s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:93:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[13.158s]    93 | [01;31m[KCartesianImpedanceController[m[K::command_interface_configuration() const {
+[13.158s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.159s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:93:65:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kcontroller_interface::InterfaceConfiguration cartesian_impedance_control::command_interface_configuration()[m[K’ cannot have cv-qualifier
+[13.159s]    93 | CartesianImpedanceController::command_interface_configuration() [01;31m[Kconst[m[K {
+[13.159s]       |                                                                 [01;31m[K^~~~~[m[K
+[13.181s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::InterfaceConfiguration cartesian_impedance_control::command_interface_configuration()[m[K’:
+[13.181s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:96:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knum_joints[m[K’ was not declared in this scope
+[13.181s]    96 |   for (int i = 1; i <= [01;31m[Knum_joints[m[K; ++i) {
+[13.182s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[13.203s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:97:28:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_name_[m[K’ was not declared in this scope
+[13.204s]    97 |     config.names.push_back([01;31m[Krobot_name_[m[K + "_joint" + std::to_string(i) + "/effort");
+[13.204s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[13.204s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K At global scope:
+[13.204s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:103:46:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[13.204s]   103 | controller_interface::InterfaceConfiguration [01;31m[KCartesianImpedanceController[m[K::state_interface_configuration()
+[13.204s]       |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.204s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:104:3:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kcontroller_interface::InterfaceConfiguration cartesian_impedance_control::state_interface_configuration()[m[K’ cannot have cv-qualifier
+[13.204s]   104 |   [01;31m[Kconst[m[K {
+[13.205s]       |   [01;31m[K^~~~~[m[K
+[13.223s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::InterfaceConfiguration cartesian_impedance_control::state_interface_configuration()[m[K’:
+[13.223s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:108:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knum_joints[m[K’ was not declared in this scope
+[13.224s]   108 |   for (int i = 1; i <= [01;31m[Knum_joints[m[K; ++i) {
+[13.224s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[13.243s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:109:45:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_name_[m[K’ was not declared in this scope
+[13.243s]   109 |     state_interfaces_config.names.push_back([01;31m[Krobot_name_[m[K + "_joint" + std::to_string(i) + "/position");
+[13.243s]       |                                             [01;31m[K^~~~~~~~~~~[m[K
+[13.265s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:113:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_robot_model_[m[K’ was not declared in this scope; did you mean ‘[01m[Kfranka_robot_model_name[m[K’?
+[13.266s]   113 |   for (const auto& franka_robot_model_name : [01;31m[Kfranka_robot_model_[m[K->get_state_interface_names()) {
+[13.266s]       |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.266s]       |                                              [32m[Kfranka_robot_model_name[m[K
+[13.289s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:118:43:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_name_[m[K’ was not declared in this scope
+[13.289s]   118 |   const std::string full_interface_name = [01;31m[Krobot_name_[m[K + "/" + state_interface_name_;
+[13.289s]       |                                           [01;31m[K^~~~~~~~~~~[m[K
+[13.315s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:118:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_interface_name_[m[K’ was not declared in this scope; did you mean ‘[01m[Kfull_interface_name[m[K’?
+[13.315s]   118 |   const std::string full_interface_name = robot_name_ + "/" + [01;31m[Kstate_interface_name_[m[K;
+[13.316s]       |                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[13.316s]       |                                                               [32m[Kfull_interface_name[m[K
+[13.316s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K At global scope:
+[13.316s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:130:16:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[13.316s]   130 | CallbackReturn [01;31m[KCartesianImpedanceController[m[K::on_init() {
+[13.316s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.316s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:135:16:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[13.316s]   135 | CallbackReturn [01;31m[KCartesianImpedanceController[m[K::on_configure(const rclcpp_lifecycle::State& /*previous_state*/) {
+[13.316s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.345s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K In function ‘[01m[KCallbackReturn cartesian_impedance_control::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[13.345s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:136:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_robot_model_[m[K’ was not declared in this scope
+[13.345s]   136 |   [01;31m[Kfranka_robot_model_[m[K = std::make_unique<franka_semantic_components::FrankaRobotModel>(
+[13.345s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.368s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:137:48:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_name_[m[K’ was not declared in this scope
+[13.368s]   137 |   franka_semantic_components::FrankaRobotModel([01;31m[Krobot_name_[m[K + "/" + k_robot_model_interface_name,
+[13.368s]       |                                                [01;31m[K^~~~~~~~~~~[m[K
+[13.401s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:137:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kk_robot_model_interface_name[m[K’ was not declared in this scope
+[13.402s]   137 |   franka_semantic_components::FrankaRobotModel(robot_name_ + "/" + [01;31m[Kk_robot_model_interface_name[m[K,
+[13.402s]       |                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.433s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:138:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kk_robot_state_interface_name[m[K’ was not declared in this scope
+[13.433s]   138 |                                                robot_name_ + "/" + [01;31m[Kk_robot_state_interface_name[m[K));
+[13.433s]       |                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.462s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:141:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_state_subscriber[m[K’ was not declared in this scope
+[13.463s]   141 |     [01;31m[Kfranka_state_subscriber[m[K = get_node()->create_subscription<franka_msgs::msg::FrankaRobotState>(
+[13.463s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.482s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:141:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_node[m[K’ was not declared in this scope
+[13.482s]   141 |     franka_state_subscriber = [01;31m[Kget_node[m[K()->create_subscription<franka_msgs::msg::FrankaRobotState>(
+[13.483s]       |                               [01;31m[K^~~~~~~~[m[K
+[13.483s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:141:97:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[13.483s]   141 |     franka_state_subscriber = get_node()->create_subscription<franka_msgs::msg::FrankaRobotState[01;31m[K>[m[K(
+[13.483s]       |                                                                                                 [01;31m[K^[m[K
+[13.483s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:142:5:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[13.483s]   142 |     [01;35m[K"franka_robot_state_broadcaster/robot_state"[m[K, rclcpp::SystemDefaultsQoS(),
+[13.483s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.483s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:143:16:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[13.484s]   143 |     std::bind(&[01;31m[KCartesianImpedanceController[m[K::topic_callback, this, std::placeholders::_1));
+[13.484s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.484s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:143:62:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.484s]   143 |     std::bind(&CartesianImpedanceController::topic_callback, [01;31m[Kthis[m[K, std::placeholders::_1));
+[13.484s]       |                                                              [01;31m[K^~~~[m[K
+[13.505s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.506s]                  from [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/include/cartesian_impedance_control/cartesian_impedance_controller.hpp:27[m[K,
+[13.506s]                  from [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:15[m[K:
+[13.507s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:151:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_node[m[K’ was not declared in this scope
+[13.507s]   151 |   RCLCPP_DEBUG([01;31m[Kget_node[m[K()->get_logger(), "configured successfully");
+[13.507s]       |                [01;31m[K^~~~~~~~[m[K
+[13.507s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:151:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.507s]   151 |   [01;31m[KRCLCPP_DEBUG[m[K(get_node()->get_logger(), "configured successfully");
+[13.507s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[13.507s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:151:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[13.507s]   151 |   [01;31m[KRCLCPP_DEBUG[m[K(get_node()->get_logger(), "configured successfully");
+[13.508s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[13.508s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:151:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.508s]   151 |   [01;31m[KRCLCPP_DEBUG[m[K(get_node()->get_logger(), "configured successfully");
+[13.508s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[13.508s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:151:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[13.508s]   151 |   [01;31m[KRCLCPP_DEBUG[m[K(get_node()->get_logger(), "configured successfully");
+[13.508s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[13.508s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:151:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.508s]   151 |   [01;31m[KRCLCPP_DEBUG[m[K(get_node()->get_logger(), "configured successfully");
+[13.509s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[13.509s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K At global scope:
+[13.509s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:156:16:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[13.509s]   156 | CallbackReturn [01;31m[KCartesianImpedanceController[m[K::on_activate(
+[13.509s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.535s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K In function ‘[01m[KCallbackReturn cartesian_impedance_control::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[13.535s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:158:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_robot_model_[m[K’ was not declared in this scope
+[13.535s]   158 |   [01;31m[Kfranka_robot_model_[m[K->assign_loaned_state_interfaces(state_interfaces_);
+[13.535s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.559s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:158:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_interfaces_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[13.559s]   158 |   franka_robot_model_->assign_loaned_state_interfaces([01;31m[Kstate_interfaces_[m[K);
+[13.559s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[13.560s]       |                                                       [32m[Krcl_interfaces[m[K
+[13.673s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:162:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition_d_[m[K’ was not declared in this scope
+[13.674s]   162 |   [01;31m[Kposition_d_[m[K = initial_transform.translation();
+[13.674s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[13.732s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:163:3:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_d_[m[K’ was not declared in this scope
+[13.733s]   163 |   [01;31m[Korientation_d_[m[K = Eigen::Quaterniond(initial_transform.rotation());
+[13.733s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.776s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K At global scope:
+[13.776s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:169:38:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[13.776s]   169 | controller_interface::CallbackReturn [01;31m[KCartesianImpedanceController[m[K::on_deactivate(
+[13.776s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.803s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::CallbackReturn cartesian_impedance_control::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[13.803s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:171:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_robot_model_[m[K’ was not declared in this scope
+[13.803s]   171 |   [01;31m[Kfranka_robot_model_[m[K->release_interfaces();
+[13.804s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.804s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K At global scope:
+[13.804s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:176:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[13.804s]   176 | void [01;31m[KCartesianImpedanceController[m[K::topic_callback(const std::shared_ptr<franka_msgs::msg::FrankaRobotState> msg) {
+[13.804s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.830s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K In function ‘[01m[Kvoid cartesian_impedance_control::topic_callback(std::shared_ptr<franka_msgs::msg::FrankaRobotState_<std::allocator<void> > >)[m[K’:
+[13.831s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:177:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktau_J_d[m[K’ was not declared in this scope
+[13.831s]   177 |   [01;31m[Ktau_J_d[m[K = msg->tau_j_d;
+[13.831s]       |   [01;31m[K^~~~~~~[m[K
+[13.849s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:178:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ktau_J_d_M[m[K’ was not declared in this scope
+[13.850s]   178 |   arrayToMatrix(tau_J_d, [01;31m[Ktau_J_d_M[m[K);
+[13.850s]       |                          [01;31m[K^~~~~~~~~[m[K
+[13.872s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:179:3:[m[K [01;31m[Kerror: [m[K‘[01m[KO_F_ext_hat_K[m[K’ was not declared in this scope
+[13.872s]   179 |   [01;31m[KO_F_ext_hat_K[m[K = msg->o_f_ext_hat_k;
+[13.872s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[13.895s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:180:32:[m[K [01;31m[Kerror: [m[K‘[01m[KO_F_ext_hat_K_M[m[K’ was not declared in this scope
+[13.896s]   180 |   arrayToMatrix(O_F_ext_hat_K, [01;31m[KO_F_ext_hat_K_M[m[K);
+[13.896s]       |                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[13.916s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:181:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kq_subscribed[m[K’ was not declared in this scope
+[13.917s]   181 |   [01;31m[Kq_subscribed[m[K = msg->q;
+[13.917s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[13.938s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:182:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kq_subscribed_M[m[K’ was not declared in this scope
+[13.939s]   182 |   arrayToMatrix(q_subscribed, [01;31m[Kq_subscribed_M[m[K);
+[13.939s]       |                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.939s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K At global scope:
+[13.939s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:186:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[13.940s]   186 | void [01;31m[KCartesianImpedanceController[m[K::updateJointStates() {
+[13.940s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.957s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K In function ‘[01m[Kvoid cartesian_impedance_control::updateJointStates()[m[K’:
+[13.957s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:187:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knum_joints[m[K’ was not declared in this scope
+[13.957s]   187 |   for (auto i = 0; i < [01;31m[Knum_joints[m[K; ++i) {
+[13.957s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[13.980s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:188:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_interfaces_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[13.980s]   188 |     const auto& position_interface = [01;31m[Kstate_interfaces_[m[K.at(2 * i);
+[13.981s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[13.981s]       |                                      [32m[Krcl_interfaces[m[K
+[13.996s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:192:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq_[m[K’ was not declared in this scope
+[13.997s]   192 |     [01;31m[Kq_[m[K(i) = position_interface.get_value();
+[13.997s]       |     [01;31m[K^~[m[K
+[14.012s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:193:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdq_[m[K’ was not declared in this scope
+[14.012s]   193 |     [01;31m[Kdq_[m[K(i) = velocity_interface.get_value();
+[14.012s]       |     [01;31m[K^~~[m[K
+[14.013s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K At global scope:
+[14.013s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:198:35:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ has not been declared
+[14.013s]   198 | controller_interface::return_type [01;31m[KCartesianImpedanceController[m[K::update(const rclcpp::Time& /*time*/, const rclcpp::Duration& /*period*/) {
+[14.013s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.037s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::return_type cartesian_impedance_control::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[14.037s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:199:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_robot_model_[m[K’ was not declared in this scope
+[14.037s]   199 |   std::array<double, 49> mass = [01;31m[Kfranka_robot_model_[m[K->getMassMatrix();
+[14.037s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.169s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:212:3:[m[K [01;31m[Kerror: [m[K‘[01m[KLambda[m[K’ was not declared in this scope
+[14.170s]   212 |   [01;31m[KLambda[m[K = (jacobian * M.inverse() * jacobian.transpose()).inverse();
+[14.170s]       |   [01;31m[K^~~~~~[m[K
+[14.255s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:213:3:[m[K [01;31m[Kerror: [m[K‘[01m[KT[m[K’ was not declared in this scope
+[14.255s]   213 |   [01;31m[KT[m[K = Lambda; // let robot behave with it's own physical inertia (How can we change the physical inertia and what does it mean?)
+[14.256s]       |   [01;31m[K^[m[K
+[14.268s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:216:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition_d_target_[m[K’ was not declared in this scope
+[14.268s]   216 |   [01;31m[Kposition_d_target_[m[K = {0.5, -0.3, 0.5};
+[14.268s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.282s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:219:3:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_d_target_[m[K’ was not declared in this scope
+[14.282s]   219 |   [01;31m[Korientation_d_target_[m[K = Eigen::AngleAxisd(roll,  Eigen::Vector3d::UnitX())
+[14.282s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[14.322s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:223:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror[m[K’ was not declared in this scope; did you mean ‘[01m[Kperror[m[K’?
+[14.323s]   223 |   [01;31m[Kerror[m[K.head(3) << position - position_d_;
+[14.323s]       |   [01;31m[K^~~~~[m[K
+[14.323s]       |   [32m[Kperror[m[K
+[14.331s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:223:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition_d_[m[K’ was not declared in this scope; did you mean ‘[01m[Kposition[m[K’?
+[14.331s]   223 |   error.head(3) << position - [01;31m[Kposition_d_[m[K;
+[14.331s]       |                               [01;31m[K^~~~~~~~~~~[m[K
+[14.332s]       |                               [32m[Kposition[m[K
+[14.340s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:225:7:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_d_[m[K’ was not declared in this scope; did you mean ‘[01m[Korientation[m[K’?
+[14.340s]   225 |   if ([01;31m[Korientation_d_[m[K.coeffs().dot(orientation.coeffs()) < 0.0) {
+[14.340s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.340s]       |       [32m[Korientation[m[K
+[14.367s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:228:63:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation_d_[m[K’ was not declared in this scope; did you mean ‘[01m[Korientation[m[K’?
+[14.367s]   228 |   Eigen::Quaterniond error_quaternion(orientation.inverse() * [01;31m[Korientation_d_[m[K);
+[14.367s]       |                                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.367s]       |                                                               [32m[Korientation[m[K
+[14.526s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:231:3:[m[K [01;31m[Kerror: [m[K‘[01m[KI_error[m[K’ was not declared in this scope; did you mean ‘[01m[Kperror[m[K’?
+[14.526s]   231 |   [01;31m[KI_error[m[K += Sm * dt * integrator_weights.cwiseProduct(error);
+[14.526s]       |   [01;31m[K^~~~~~~[m[K
+[14.526s]       |   [32m[Kperror[m[K
+[14.533s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:231:14:[m[K [01;31m[Kerror: [m[K‘[01m[KSm[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[14.533s]   231 |   I_error += [01;31m[KSm[m[K * dt * integrator_weights.cwiseProduct(error);
+[14.533s]       |              [01;31m[K^~[m[K
+[14.533s]       |              [32m[Ktm[m[K
+[14.540s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:231:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kdt[m[K’ was not declared in this scope
+[14.540s]   231 |   I_error += Sm * [01;31m[Kdt[m[K * integrator_weights.cwiseProduct(error);
+[14.540s]       |                   [01;31m[K^~[m[K
+[14.553s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:231:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kintegrator_weights[m[K’ was not declared in this scope
+[14.553s]   231 |   I_error += Sm * dt * [01;31m[Kintegrator_weights[m[K.cwiseProduct(error);
+[14.553s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.560s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:233:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_I[m[K’ was not declared in this scope
+[14.561s]   233 |     I_error(i,0) = std::min(std::max(-[01;31m[Kmax_I[m[K(i,0),  I_error(i,0)), max_I(i,0));
+[14.561s]       |                                       [01;31m[K^~~~~[m[K
+[14.570s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:235:3:[m[K [01;31m[Kerror: [m[K‘[01m[KF_impedance[m[K’ was not declared in this scope
+[14.571s]   235 |   [01;31m[KF_impedance[m[K = -1 * (D * (jacobian * dq_) + K * error + I_error);
+[14.571s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[14.578s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:235:23:[m[K [01;31m[Kerror: [m[K‘[01m[KD[m[K’ was not declared in this scope
+[14.578s]   235 |   F_impedance = -1 * ([01;31m[KD[m[K * (jacobian * dq_) + K * error + I_error);
+[14.578s]       |                       [01;31m[K^[m[K
+[14.585s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:235:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kdq_[m[K’ was not declared in this scope
+[14.585s]   235 |   F_impedance = -1 * (D * (jacobian * [01;31m[Kdq_[m[K) + K * error + I_error);
+[14.585s]       |                                       [01;31m[K^~~[m[K
+[14.592s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:235:46:[m[K [01;31m[Kerror: [m[K‘[01m[KK[m[K’ was not declared in this scope
+[14.593s]   235 |   F_impedance = -1 * (D * (jacobian * dq_) + [01;31m[KK[m[K * error + I_error);
+[14.593s]       |                                              [01;31m[K^[m[K
+[14.600s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:236:3:[m[K [01;31m[Kerror: [m[K‘[01m[KF_ext[m[K’ was not declared in this scope
+[14.600s]   236 |   [01;31m[KF_ext[m[K = 0.9 * F_ext + 0.1 * O_F_ext_hat_K_M;
+[14.600s]       |   [01;31m[K^~~~~[m[K
+[14.611s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:236:31:[m[K [01;31m[Kerror: [m[K‘[01m[KO_F_ext_hat_K_M[m[K’ was not declared in this scope
+[14.611s]   236 |   F_ext = 0.9 * F_ext + 0.1 * [01;31m[KO_F_ext_hat_K_M[m[K;
+[14.612s]       |                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[14.620s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:237:3:[m[K [01;31m[Kerror: [m[K‘[01m[KI_F_error[m[K’ was not declared in this scope; did you mean ‘[01m[Kferror[m[K’?
+[14.621s]   237 |   [01;31m[KI_F_error[m[K += dt * Sf* (F_contact_des - F_ext);
+[14.621s]       |   [01;31m[K^~~~~~~~~[m[K
+[14.621s]       |   [32m[Kferror[m[K
+[14.627s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:237:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSf[m[K’ was not declared in this scope
+[14.628s]   237 |   I_F_error += dt * [01;31m[KSf[m[K* (F_contact_des - F_ext);
+[14.628s]       |                     [01;31m[K^~[m[K
+[14.637s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:237:26:[m[K [01;31m[Kerror: [m[K‘[01m[KF_contact_des[m[K’ was not declared in this scope
+[14.638s]   237 |   I_F_error += dt * Sf* ([01;31m[KF_contact_des[m[K - F_ext);
+[14.638s]       |                          [01;31m[K^~~~~~~~~~~~~[m[K
+[14.645s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:238:3:[m[K [01;31m[Kerror: [m[K‘[01m[KF_cmd[m[K’ was not declared in this scope
+[14.645s]   238 |   [01;31m[KF_cmd[m[K = Sf*(0.4 * (F_contact_des - F_ext) + 0.9 * I_F_error + 0.9 * F_contact_des);
+[14.645s]       |   [01;31m[K^~~~~[m[K
+[14.660s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:241:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kjacobian_transpose_pinv[m[K’ was not declared in this scope
+[14.660s]   241 |   pseudoInverse(jacobian.transpose(), [01;31m[Kjacobian_transpose_pinv[m[K);
+[14.660s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.673s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:245:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knullspace_stiffness_[m[K’ was not declared in this scope
+[14.673s]   245 |                     ([01;31m[Knullspace_stiffness_[m[K * config_control * (q_d_nullspace_ - q_) - //if config_control = true we control the whole robot configuration
+[14.674s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.684s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:245:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kconfig_control[m[K’ was not declared in this scope
+[14.685s]   245 |                     (nullspace_stiffness_ * [01;31m[Kconfig_control[m[K * (q_d_nullspace_ - q_) - //if config_control = true we control the whole robot configuration
+[14.685s]       |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.694s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:245:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kq_d_nullspace_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktau_nullspace[m[K’?
+[14.694s]   245 |                     (nullspace_stiffness_ * config_control * ([01;31m[Kq_d_nullspace_[m[K - q_) - //if config_control = true we control the whole robot configuration
+[14.694s]       |                                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.695s]       |                                                               [32m[Ktau_nullspace[m[K
+[14.701s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:245:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kq_[m[K’ was not declared in this scope
+[14.701s]   245 |                     (nullspace_stiffness_ * config_control * (q_d_nullspace_ - [01;31m[Kq_[m[K) - //if config_control = true we control the whole robot configuration
+[14.701s]       |                                                                                [01;31m[K^~[m[K
+[14.803s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:251:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ktau_J_d_M[m[K’ was not declared in this scope
+[14.803s]   251 |   tau_d << saturateTorqueRate(tau_d, [01;31m[Ktau_J_d_M[m[K);  // Saturate torque rate to avoid discontinuities
+[14.803s]       |                                      [01;31m[K^~~~~~~~~[m[K
+[14.815s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:254:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_interfaces_[m[K’ was not declared in this scope
+[14.816s]   254 |     [01;31m[Kcommand_interfaces_[m[K[i].set_value(tau_d(i));
+[14.816s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.825s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:257:7:[m[K [01;31m[Kerror: [m[K‘[01m[Koutcounter[m[K’ was not declared in this scope
+[14.825s]   257 |   if ([01;31m[Koutcounter[m[K == 1000/update_frequency){
+[14.825s]       |       [01;31m[K^~~~~~~~~~[m[K
+[14.837s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:257:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kupdate_frequency[m[K’ was not declared in this scope
+[14.837s]   257 |   if (outcounter == 1000/[01;31m[Kupdate_frequency[m[K){
+[14.837s]       |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[14.847s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:292:3:[m[K [01;31m[Kerror: [m[K‘[01m[Koutcounter[m[K’ was not declared in this scope
+[14.848s]   292 |   [01;31m[Koutcounter[m[K++;
+[14.848s]       |   [01;31m[K^~~~~~~~~~[m[K
+[14.865s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[14.865s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[14.866s]                  from [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:299[m[K:
+[14.866s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K At global scope:
+[14.866s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:301:53:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianImpedanceController[m[K’ in namespace ‘[01m[Kcartesian_impedance_control[m[K’ does not name a type
+[14.866s]   301 | PLUGINLIB_EXPORT_CLASS(cartesian_impedance_control::[01;31m[KCartesianImpedanceController[m[K,
+[14.866s]       |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.881s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[14.881s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:301:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+[14.881s]   301 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(cartesian_impedance_control::CartesianImpedanceController,
+[14.881s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.881s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:301:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [58], const char [42])[m[K’
+[14.882s]   301 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(cartesian_impedance_control::CartesianImpedanceController,
+[14.882s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.882s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[14.882s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[14.882s]                  from [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:299[m[K:
+[14.882s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+[14.882s]   210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[14.882s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[14.882s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.882s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[14.882s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[14.883s]                  from [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:299[m[K:
+[14.883s] [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/src/cartesian_impedance_controller.cpp:301:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.883s]   301 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(cartesian_impedance_control::CartesianImpedanceController,
+[14.883s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.507s] [ 40%] [32m[1mLinking CXX static library libgmock.a[0m
+[21.563s] [ 40%] Built target gmock
+[21.591s] [ 46%] [32mBuilding CXX object CMakeFiles/cartesian_impedance_control_test.dir/test/test_load_gravity_compensation_controller.cpp.o[0m
+[21.591s] [ 53%] [32mBuilding CXX object CMakeFiles/cartesian_impedance_control_test_load_move_to_start.dir/test/test_load_move_to_start_example_controller.cpp.o[0m
+[22.909s] gmake[2]: *** [CMakeFiles/cartesian_impedance_control.dir/build.make:76: CMakeFiles/cartesian_impedance_control.dir/src/cartesian_impedance_controller.cpp.o] Error 1
+[22.909s] gmake[1]: *** [CMakeFiles/Makefile2:182: CMakeFiles/cartesian_impedance_control.dir/all] Error 2
+[22.909s] gmake[1]: *** Waiting for unfinished jobs....
+[29.649s] [ 60%] [32m[1mLinking CXX executable cartesian_impedance_control_test[0m
+[29.759s] [ 66%] [32m[1mLinking CXX executable cartesian_impedance_control_test_load_move_to_start[0m
+[30.015s] [ 66%] Built target cartesian_impedance_control_test
+[30.124s] [ 66%] Built target cartesian_impedance_control_test_load_move_to_start
+[30.126s] gmake: *** [Makefile:146: all] Error 2
+[30.130s] Invoked command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control' returned '2': CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/cartesian_impedance_control -- -j20 -l20

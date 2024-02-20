@@ -1,0 +1,32 @@
+[0.079s] Invoking command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/cartesian_impedance_control -- -j20 -l20
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control[0m
+[0.108s] [ 13%] Built target gmock_main
+[0.109s] [ 33%] Built target gmock
+[0.113s] [ 46%] Built target cartesian_impedance_control
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_test[0m
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_test_load_move_to_start[0m
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_gravity_test[0m
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_move_to_start_test[0m
+[0.132s] [ 73%] Built target cartesian_impedance_control_test_load_move_to_start
+[0.132s] [ 66%] Built target cartesian_impedance_control_test
+[0.139s] [ 80%] [32m[1mLinking CXX executable cartesian_impedance_control_gravity_test[0m
+[0.140s] [ 86%] [32m[1mLinking CXX executable cartesian_impedance_control_move_to_start_test[0m
+[0.295s] /usr/bin/ld: CMakeFiles/cartesian_impedance_control_gravity_test.dir/test/test_gravity_compensation_example.cpp.o: warning: relocation against `_ZTVN26franka_example_controllers36GravityCompensationExampleControllerE' in read-only section `.text'
+[0.301s] /usr/bin/ld: CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o: warning: relocation against `_ZTVN26franka_example_controllers28MoveToStartExampleControllerE' in read-only section `.text'
+[0.306s] /usr/bin/ld: CMakeFiles/cartesian_impedance_control_gravity_test.dir/test/test_gravity_compensation_example.cpp.o: in function `TestGravityCompensationExample::SetUp()':
+[0.306s] test_gravity_compensation_example.cpp:(.text+0x60): undefined reference to `vtable for franka_example_controllers::GravityCompensationExampleController'
+[0.311s] /usr/bin/ld: CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o: in function `MoveToStartExampleControllerTest::SetUp()':
+[0.311s] test_move_to_start_example_controller.cpp:(.text+0x12f): undefined reference to `vtable for franka_example_controllers::MoveToStartExampleController'
+[0.312s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[0.315s] collect2: error: ld returned 1 exit status
+[0.316s] gmake[2]: *** [CMakeFiles/cartesian_impedance_control_gravity_test.dir/build.make:315: cartesian_impedance_control_gravity_test] Error 1
+[0.316s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[0.317s] gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/cartesian_impedance_control_gravity_test.dir/all] Error 2
+[0.317s] gmake[1]: *** Waiting for unfinished jobs....
+[0.319s] collect2: error: ld returned 1 exit status
+[0.320s] gmake[2]: *** [CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/build.make:315: cartesian_impedance_control_move_to_start_test] Error 1
+[0.320s] gmake[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/all] Error 2
+[0.320s] gmake: *** [Makefile:146: all] Error 2
+[0.404s] Invoked command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control' returned '2': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/cartesian_impedance_control -- -j20 -l20

@@ -1,0 +1,894 @@
+[0.439s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.439s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4097a704c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4097abb3d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4097abb3d0>>)
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.461s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/curdin/franka_ros2_ws'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartesian_impedance_control) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartesian_impedance_control) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartesian_impedance_control) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartesian_impedance_control) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartesian_impedance_control) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartesian_impedance_control) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartesian_impedance_control) by extension 'colcon_meta'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartesian_impedance_control) by extensions ['ros']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartesian_impedance_control) by extension 'ros'
+[0.469s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartesian_impedance_control' with type 'ros.ament_cmake' and name 'cartesian_impedance_control'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'ros'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['cmake', 'python']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'cmake'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'python'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extensions ['python_setup_py']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2) by extension 'python_setup_py'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extensions ['colcon_meta']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'colcon_meta'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_bringup) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_bringup' with type 'ros.ament_cmake' and name 'franka_bringup'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extensions ['colcon_meta']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extension 'colcon_meta'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_description) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_description' with type 'ros.ament_cmake' and name 'franka_description'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_example_controllers) by extension 'ros'
+[0.471s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_example_controllers' with type 'ros.ament_cmake' and name 'franka_example_controllers'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_gripper) by extension 'ros'
+[0.472s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_gripper' with type 'ros.ament_cmake' and name 'franka_gripper'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_hardware) by extension 'ros'
+[0.472s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_hardware' with type 'ros.ament_cmake' and name 'franka_hardware'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_moveit_config) by extension 'ros'
+[0.473s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_moveit_config' with type 'ros.ament_cmake' and name 'franka_moveit_config'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_msgs) by extension 'ros'
+[0.474s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_msgs' with type 'ros.ament_cmake' and name 'franka_msgs'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'ros'
+[0.474s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_robot_state_broadcaster' with type 'ros.ament_cmake' and name 'franka_robot_state_broadcaster'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/franka_semantic_components) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/franka_semantic_components' with type 'ros.ament_cmake' and name 'franka_semantic_components'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/integration_launch_testing) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/integration_launch_testing' with type 'ros.ament_cmake' and name 'integration_launch_testing'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_ros2/joint_trajectory_controller) by extension 'ros'
+[0.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_ros2/joint_trajectory_controller' with type 'ros.ament_cmake' and name 'joint_trajectory_controller'
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.533s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 363 installed packages in /opt/ros/humble
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.582s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'joint_trajectory_controller' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding joint_trajectory_controller
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.589s] DEBUG:colcon.colcon_core.verb:Building package 'franka_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curdin/franka_ros2_ws/build/franka_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curdin/franka_ros2_ws/install/franka_description', 'merge_install': False, 'path': '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_description', 'symlink_install': False, 'test_result_base': None}
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_target' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.596s] DEBUG:colcon.colcon_core.verb:Building package 'franka_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curdin/franka_ros2_ws/build/franka_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curdin/franka_ros2_ws/install/franka_msgs', 'merge_install': False, 'path': '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_target' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_clean_first' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'cmake_force_configure' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'ament_cmake_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'integration_launch_testing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.602s] DEBUG:colcon.colcon_core.verb:Building package 'integration_launch_testing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curdin/franka_ros2_ws/build/integration_launch_testing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curdin/franka_ros2_ws/install/integration_launch_testing', 'merge_install': False, 'path': '/home/curdin/franka_ros2_ws/src/franka_ros2/integration_launch_testing', 'symlink_install': False, 'test_result_base': None}
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_target' from command line to 'None'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.608s] DEBUG:colcon.colcon_core.verb:Building package 'joint_trajectory_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curdin/franka_ros2_ws/build/joint_trajectory_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller', 'merge_install': False, 'path': '/home/curdin/franka_ros2_ws/src/franka_ros2/joint_trajectory_controller', 'symlink_install': False, 'test_result_base': None}
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_target' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_clean_first' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_force_configure' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'ament_cmake_args' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.615s] DEBUG:colcon.colcon_core.verb:Building package 'franka_gripper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curdin/franka_ros2_ws/build/franka_gripper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curdin/franka_ros2_ws/install/franka_gripper', 'merge_install': False, 'path': '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_gripper', 'symlink_install': False, 'test_result_base': None}
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_target' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.622s] DEBUG:colcon.colcon_core.verb:Building package 'franka_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curdin/franka_ros2_ws/build/franka_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curdin/franka_ros2_ws/install/franka_hardware', 'merge_install': False, 'path': '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.628s] DEBUG:colcon.colcon_core.verb:Building package 'franka_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curdin/franka_ros2_ws/build/franka_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curdin/franka_ros2_ws/install/franka_moveit_config', 'merge_install': False, 'path': '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_target' from command line to 'None'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_clean_cache' from command line to 'False'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_clean_first' from command line to 'False'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_force_configure' from command line to 'False'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'ament_cmake_args' from command line to 'None'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'catkin_cmake_args' from command line to 'None'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.635s] DEBUG:colcon.colcon_core.verb:Building package 'franka_semantic_components' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curdin/franka_ros2_ws/build/franka_semantic_components', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curdin/franka_ros2_ws/install/franka_semantic_components', 'merge_install': False, 'path': '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_semantic_components', 'symlink_install': False, 'test_result_base': None}
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'cartesian_impedance_control' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'cartesian_impedance_control' build argument 'cmake_target' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'cartesian_impedance_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'cartesian_impedance_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'cartesian_impedance_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'cartesian_impedance_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'cartesian_impedance_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'cartesian_impedance_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'cartesian_impedance_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.641s] DEBUG:colcon.colcon_core.verb:Building package 'cartesian_impedance_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curdin/franka_ros2_ws/install/cartesian_impedance_control', 'merge_install': False, 'path': '/home/curdin/franka_ros2_ws/src/cartesian_impedance_control', 'symlink_install': False, 'test_result_base': None}
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_target' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.648s] DEBUG:colcon.colcon_core.verb:Building package 'franka_example_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curdin/franka_ros2_ws/build/franka_example_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curdin/franka_ros2_ws/install/franka_example_controllers', 'merge_install': False, 'path': '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.654s] DEBUG:colcon.colcon_core.verb:Building package 'franka_robot_state_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster', 'merge_install': False, 'path': '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_robot_state_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_target' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.661s] DEBUG:colcon.colcon_core.verb:Building package 'franka_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curdin/franka_ros2_ws/build/franka_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curdin/franka_ros2_ws/install/franka_bringup', 'merge_install': False, 'path': '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.667s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.674s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.674s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_msgs' with build type 'ament_cmake'
+[0.674s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_msgs'
+[0.683s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.698s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_description' with build type 'ament_cmake'
+[0.698s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_description'
+[0.705s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.719s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curdin/franka_ros2_ws/src/franka_ros2/integration_launch_testing' with build type 'ament_cmake'
+[0.719s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curdin/franka_ros2_ws/src/franka_ros2/integration_launch_testing'
+[0.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.740s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curdin/franka_ros2_ws/src/franka_ros2/joint_trajectory_controller' with build type 'ament_cmake'
+[0.740s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curdin/franka_ros2_ws/src/franka_ros2/joint_trajectory_controller'
+[0.747s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.747s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_msgs -- -j20 -l20
+[0.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_description -- -j20 -l20
+[0.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/integration_launch_testing -- -j20 -l20
+[0.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/joint_trajectory_controller -- -j20 -l20
+[0.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_description -- -j20 -l20
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/integration_launch_testing -- -j20 -l20
+[0.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/integration_launch_testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/integration_launch_testing
+[0.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_description
+[0.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(integration_launch_testing)
+[0.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/integration_launch_testing
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/integration_launch_testing' for CMake module files
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/integration_launch_testing' for CMake config files
+[0.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('integration_launch_testing', 'cmake_prefix_path')
+[0.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.ps1'
+[0.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.dsv'
+[0.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.sh'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/integration_launch_testing/bin'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib/pkgconfig/integration_launch_testing.pc'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib/python3.10/site-packages'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/integration_launch_testing/bin'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/package.ps1'
+[0.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/package.dsv'
+[0.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/package.sh'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/package.bash'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/package.zsh'
+[0.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/colcon-core/packages/integration_launch_testing)
+[0.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[0.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_description
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_description' for CMake module files
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_description' for CMake config files
+[0.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_description/bin'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_description/lib/pkgconfig/franka_description.pc'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_description/lib/python3.10/site-packages'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_description/bin'
+[0.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/package.ps1'
+[0.902s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/package.dsv'
+[0.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/package.sh'
+[0.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/package.bash'
+[0.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/package.zsh'
+[0.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_description/share/colcon-core/packages/franka_description)
+[0.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/joint_trajectory_controller -- -j20 -l20
+[0.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(integration_launch_testing)
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/integration_launch_testing' for CMake module files
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/integration_launch_testing' for CMake config files
+[0.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('integration_launch_testing', 'cmake_prefix_path')
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.dsv'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.sh'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/integration_launch_testing/bin'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib/pkgconfig/integration_launch_testing.pc'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib/python3.10/site-packages'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/integration_launch_testing/bin'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/package.ps1'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/package.dsv'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/package.sh'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/package.bash'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/integration_launch_testing/package.zsh'
+[0.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/integration_launch_testing/share/colcon-core/packages/integration_launch_testing)
+[0.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_description' for CMake module files
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_description' for CMake config files
+[0.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_description/bin'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_description/lib/pkgconfig/franka_description.pc'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_description/lib/python3.10/site-packages'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_description/bin'
+[0.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/package.ps1'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/package.dsv'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/package.sh'
+[1.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/package.bash'
+[1.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_description/share/franka_description/package.zsh'
+[1.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_description/share/colcon-core/packages/franka_description)
+[1.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/joint_trajectory_controller
+[1.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_msgs -- -j20 -l20
+[1.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_trajectory_controller)
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/joint_trajectory_controller
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller' for CMake module files
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller' for CMake config files
+[1.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_trajectory_controller', 'cmake_prefix_path')
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/cmake_prefix_path.ps1'
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/cmake_prefix_path.dsv'
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/cmake_prefix_path.sh'
+[1.033s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib'
+[1.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_trajectory_controller', 'ld_library_path_lib')
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/ld_library_path_lib.ps1'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/ld_library_path_lib.dsv'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/ld_library_path_lib.sh'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/bin'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib/pkgconfig/joint_trajectory_controller.pc'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib/python3.10/site-packages'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/bin'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.ps1'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.sh'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.bash'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.zsh'
+[1.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/colcon-core/packages/joint_trajectory_controller)
+[1.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_trajectory_controller)
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller' for CMake module files
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller' for CMake config files
+[1.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_trajectory_controller', 'cmake_prefix_path')
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/cmake_prefix_path.ps1'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/cmake_prefix_path.dsv'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/cmake_prefix_path.sh'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib'
+[1.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_trajectory_controller', 'ld_library_path_lib')
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/ld_library_path_lib.ps1'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/ld_library_path_lib.dsv'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/hook/ld_library_path_lib.sh'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/bin'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib/pkgconfig/joint_trajectory_controller.pc'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib/python3.10/site-packages'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/bin'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.ps1'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv'
+[1.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.sh'
+[1.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.bash'
+[1.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.zsh'
+[1.122s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/share/colcon-core/packages/joint_trajectory_controller)
+[1.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_msgs
+[1.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_msgs)
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_msgs
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs' for CMake module files
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs' for CMake config files
+[1.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'cmake_prefix_path')
+[1.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.ps1'
+[1.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.dsv'
+[1.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.sh'
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs/lib'
+[1.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'ld_library_path_lib')
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.ps1'
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.dsv'
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.sh'
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs/bin'
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs/lib/pkgconfig/franka_msgs.pc'
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs/lib/python3.10/site-packages'
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs/bin'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.ps1'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.dsv'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.sh'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.bash'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.zsh'
+[1.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_msgs/share/colcon-core/packages/franka_msgs)
+[1.370s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_msgs)
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs' for CMake module files
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs' for CMake config files
+[1.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'cmake_prefix_path')
+[1.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.ps1'
+[1.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.dsv'
+[1.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.sh'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs/lib'
+[1.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'ld_library_path_lib')
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.ps1'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.dsv'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.sh'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs/bin'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs/lib/pkgconfig/franka_msgs.pc'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs/lib/python3.10/site-packages'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_msgs/bin'
+[1.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.ps1'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.dsv'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.sh'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.bash'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.zsh'
+[1.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_msgs/share/colcon-core/packages/franka_msgs)
+[1.400s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_hardware' with build type 'ament_cmake'
+[1.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_hardware'
+[1.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_gripper' with build type 'ament_cmake'
+[1.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_gripper'
+[1.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_hardware -- -j20 -l20
+[1.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_gripper -- -j20 -l20
+[1.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_hardware -- -j20 -l20
+[1.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_hardware
+[1.548s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_hardware)
+[1.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_hardware
+[1.556s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware' for CMake module files
+[1.556s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware' for CMake config files
+[1.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_hardware', 'cmake_prefix_path')
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/hook/cmake_prefix_path.ps1'
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/hook/cmake_prefix_path.dsv'
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/hook/cmake_prefix_path.sh'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware/lib'
+[1.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_hardware', 'ld_library_path_lib')
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/hook/ld_library_path_lib.ps1'
+[1.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/hook/ld_library_path_lib.dsv'
+[1.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/hook/ld_library_path_lib.sh'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware/bin'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware/lib/pkgconfig/franka_hardware.pc'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware/lib/python3.10/site-packages'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware/bin'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.ps1'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.dsv'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.sh'
+[1.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.bash'
+[1.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.zsh'
+[1.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_hardware/share/colcon-core/packages/franka_hardware)
+[1.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_hardware)
+[1.618s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware' for CMake module files
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware' for CMake config files
+[1.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_hardware', 'cmake_prefix_path')
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/hook/cmake_prefix_path.ps1'
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/hook/cmake_prefix_path.dsv'
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/hook/cmake_prefix_path.sh'
+[1.627s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware/lib'
+[1.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_hardware', 'ld_library_path_lib')
+[1.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/hook/ld_library_path_lib.ps1'
+[1.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/hook/ld_library_path_lib.dsv'
+[1.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/hook/ld_library_path_lib.sh'
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware/bin'
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware/lib/pkgconfig/franka_hardware.pc'
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware/lib/python3.10/site-packages'
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_hardware/bin'
+[1.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.ps1'
+[1.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.dsv'
+[1.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.sh'
+[1.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.bash'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.zsh'
+[1.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_hardware/share/colcon-core/packages/franka_hardware)
+[1.645s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_semantic_components' with build type 'ament_cmake'
+[1.645s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_semantic_components'
+[1.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_gripper -- -j20 -l20
+[1.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_semantic_components': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_semantic_components -- -j20 -l20
+[1.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_gripper
+[1.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_gripper)
+[1.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_gripper
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper' for CMake module files
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper' for CMake config files
+[1.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_gripper', 'cmake_prefix_path')
+[1.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/hook/cmake_prefix_path.ps1'
+[1.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/hook/cmake_prefix_path.dsv'
+[1.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/hook/cmake_prefix_path.sh'
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper/lib'
+[1.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_gripper', 'ld_library_path_lib')
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/hook/ld_library_path_lib.ps1'
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/hook/ld_library_path_lib.dsv'
+[1.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/hook/ld_library_path_lib.sh'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper/bin'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper/lib/pkgconfig/franka_gripper.pc'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper/lib/python3.10/site-packages'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper/bin'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.ps1'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.dsv'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.sh'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.bash'
+[1.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.zsh'
+[1.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_gripper/share/colcon-core/packages/franka_gripper)
+[1.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_semantic_components' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_semantic_components -- -j20 -l20
+[1.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_gripper)
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper' for CMake module files
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper' for CMake config files
+[1.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_gripper', 'cmake_prefix_path')
+[1.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/hook/cmake_prefix_path.ps1'
+[1.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/hook/cmake_prefix_path.dsv'
+[1.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/hook/cmake_prefix_path.sh'
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper/lib'
+[1.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_gripper', 'ld_library_path_lib')
+[1.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/hook/ld_library_path_lib.ps1'
+[1.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/hook/ld_library_path_lib.dsv'
+[1.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/hook/ld_library_path_lib.sh'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper/bin'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper/lib/pkgconfig/franka_gripper.pc'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper/lib/python3.10/site-packages'
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_gripper/bin'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.ps1'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.dsv'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.sh'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.bash'
+[1.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.zsh'
+[1.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_gripper/share/colcon-core/packages/franka_gripper)
+[1.816s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_moveit_config' with build type 'ament_cmake'
+[1.816s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_moveit_config'
+[1.823s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_semantic_components': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_semantic_components
+[1.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_moveit_config': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_moveit_config -- -j20 -l20
+[1.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_semantic_components)
+[1.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_semantic_components' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_semantic_components
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components' for CMake module files
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components' for CMake config files
+[1.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_semantic_components', 'cmake_prefix_path')
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/hook/cmake_prefix_path.ps1'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/hook/cmake_prefix_path.dsv'
+[1.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/hook/cmake_prefix_path.sh'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib'
+[1.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_semantic_components', 'ld_library_path_lib')
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/hook/ld_library_path_lib.ps1'
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/hook/ld_library_path_lib.dsv'
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/hook/ld_library_path_lib.sh'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components/bin'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib/pkgconfig/franka_semantic_components.pc'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib/python3.10/site-packages'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components/bin'
+[1.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.ps1'
+[1.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.dsv'
+[1.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.sh'
+[1.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.bash'
+[1.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.zsh'
+[1.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/colcon-core/packages/franka_semantic_components)
+[1.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_moveit_config -- -j20 -l20
+[1.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_moveit_config': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_moveit_config
+[1.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_moveit_config)
+[1.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_moveit_config
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_moveit_config' for CMake module files
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_moveit_config' for CMake config files
+[1.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_moveit_config', 'cmake_prefix_path')
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/hook/cmake_prefix_path.ps1'
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/hook/cmake_prefix_path.dsv'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/hook/cmake_prefix_path.sh'
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_moveit_config/bin'
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_moveit_config/lib/pkgconfig/franka_moveit_config.pc'
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_moveit_config/lib/python3.10/site-packages'
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_moveit_config/bin'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.ps1'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.dsv'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.sh'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.bash'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.zsh'
+[1.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/colcon-core/packages/franka_moveit_config)
+[1.934s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_semantic_components)
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components' for CMake module files
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components' for CMake config files
+[1.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_semantic_components', 'cmake_prefix_path')
+[1.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/hook/cmake_prefix_path.ps1'
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/hook/cmake_prefix_path.dsv'
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/hook/cmake_prefix_path.sh'
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib'
+[1.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_semantic_components', 'ld_library_path_lib')
+[1.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/hook/ld_library_path_lib.ps1'
+[1.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/hook/ld_library_path_lib.dsv'
+[1.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/hook/ld_library_path_lib.sh'
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components/bin'
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib/pkgconfig/franka_semantic_components.pc'
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib/python3.10/site-packages'
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_semantic_components/bin'
+[1.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.ps1'
+[1.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.dsv'
+[1.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.sh'
+[1.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.bash'
+[1.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.zsh'
+[1.965s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/colcon-core/packages/franka_semantic_components)
+[1.965s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_robot_state_broadcaster' with build type 'ament_cmake'
+[1.965s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_robot_state_broadcaster'
+[1.972s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.972s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.987s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curdin/franka_ros2_ws/src/cartesian_impedance_control' with build type 'ament_cmake'
+[1.987s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curdin/franka_ros2_ws/src/cartesian_impedance_control'
+[1.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.010s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers' with build type 'ament_cmake'
+[2.010s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers'
+[2.017s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.018s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.040s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_moveit_config)
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_moveit_config' for CMake module files
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_moveit_config' for CMake config files
+[2.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_moveit_config', 'cmake_prefix_path')
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/hook/cmake_prefix_path.ps1'
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/hook/cmake_prefix_path.dsv'
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/hook/cmake_prefix_path.sh'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_moveit_config/bin'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_moveit_config/lib/pkgconfig/franka_moveit_config.pc'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_moveit_config/lib/python3.10/site-packages'
+[2.056s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_moveit_config/bin'
+[2.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.ps1'
+[2.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.dsv'
+[2.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.sh'
+[2.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.bash'
+[2.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.zsh'
+[2.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_moveit_config/share/colcon-core/packages/franka_moveit_config)
+[2.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster -- -j20 -l20
+[2.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/curdin/franka_ros2_ws/src/cartesian_impedance_control -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/cartesian_impedance_control
+[2.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_example_controllers -- -j20 -l20
+[6.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/curdin/franka_ros2_ws/src/cartesian_impedance_control -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/cartesian_impedance_control
+[6.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/cartesian_impedance_control -- -j20 -l20
+[26.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster -- -j20 -l20
+[26.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster
+[26.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_robot_state_broadcaster)
+[26.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster
+[26.402s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster' for CMake module files
+[26.403s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster' for CMake config files
+[26.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_robot_state_broadcaster', 'cmake_prefix_path')
+[26.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/cmake_prefix_path.ps1'
+[26.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/cmake_prefix_path.dsv'
+[26.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/cmake_prefix_path.sh'
+[26.418s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib'
+[26.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_robot_state_broadcaster', 'ld_library_path_lib')
+[26.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/ld_library_path_lib.ps1'
+[26.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/ld_library_path_lib.dsv'
+[26.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/ld_library_path_lib.sh'
+[26.432s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/bin'
+[26.432s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib/pkgconfig/franka_robot_state_broadcaster.pc'
+[26.433s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib/python3.10/site-packages'
+[26.433s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/bin'
+[26.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.ps1'
+[26.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.dsv'
+[26.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.sh'
+[26.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.bash'
+[26.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.zsh'
+[26.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/colcon-core/packages/franka_robot_state_broadcaster)
+[26.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_robot_state_broadcaster)
+[26.518s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster' for CMake module files
+[26.518s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster' for CMake config files
+[26.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_robot_state_broadcaster', 'cmake_prefix_path')
+[26.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/cmake_prefix_path.ps1'
+[26.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/cmake_prefix_path.dsv'
+[26.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/cmake_prefix_path.sh'
+[26.533s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib'
+[26.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_robot_state_broadcaster', 'ld_library_path_lib')
+[26.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/ld_library_path_lib.ps1'
+[26.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/ld_library_path_lib.dsv'
+[26.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/hook/ld_library_path_lib.sh'
+[26.569s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/bin'
+[26.569s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib/pkgconfig/franka_robot_state_broadcaster.pc'
+[26.569s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib/python3.10/site-packages'
+[26.570s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/bin'
+[26.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.ps1'
+[26.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.dsv'
+[26.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.sh'
+[26.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.bash'
+[26.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.zsh'
+[26.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/colcon-core/packages/franka_robot_state_broadcaster)
+[26.587s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_bringup' with build type 'ament_cmake'
+[26.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curdin/franka_ros2_ws/src/franka_ros2/franka_bringup'
+[26.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_bringup': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/curdin/franka_ros2_ws/src/franka_ros2/franka_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/franka_bringup
+[27.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_bringup' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/curdin/franka_ros2_ws/src/franka_ros2/franka_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/franka_bringup
+[27.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_bringup': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_bringup -- -j20 -l20
+[27.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_bringup' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_bringup -- -j20 -l20
+[27.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_bringup': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_bringup
+[27.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_bringup)
+[27.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_bringup' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_bringup
+[27.561s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_bringup' for CMake module files
+[27.561s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_bringup' for CMake config files
+[27.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_bringup', 'cmake_prefix_path')
+[27.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.ps1'
+[27.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.dsv'
+[27.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.sh'
+[27.575s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_bringup/bin'
+[27.575s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_bringup/lib/pkgconfig/franka_bringup.pc'
+[27.575s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_bringup/lib/python3.10/site-packages'
+[27.575s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_bringup/bin'
+[27.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.ps1'
+[27.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.dsv'
+[27.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.sh'
+[27.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.bash'
+[27.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.zsh'
+[27.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_bringup/share/colcon-core/packages/franka_bringup)
+[27.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_bringup)
+[27.640s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_bringup' for CMake module files
+[27.641s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_bringup' for CMake config files
+[27.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_bringup', 'cmake_prefix_path')
+[27.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.ps1'
+[27.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.dsv'
+[27.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.sh'
+[27.655s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_bringup/bin'
+[27.655s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_bringup/lib/pkgconfig/franka_bringup.pc'
+[27.655s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_bringup/lib/python3.10/site-packages'
+[27.656s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_bringup/bin'
+[27.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.ps1'
+[27.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.dsv'
+[27.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.sh'
+[27.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.bash'
+[27.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.zsh'
+[27.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_bringup/share/colcon-core/packages/franka_bringup)
+[51.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_example_controllers -- -j20 -l20
+[51.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_example_controllers
+[51.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_example_controllers)
+[51.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_example_controllers
+[51.847s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers' for CMake module files
+[51.848s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers' for CMake config files
+[51.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_example_controllers', 'cmake_prefix_path')
+[51.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/hook/cmake_prefix_path.ps1'
+[51.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/hook/cmake_prefix_path.dsv'
+[51.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/hook/cmake_prefix_path.sh'
+[51.860s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib'
+[51.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_example_controllers', 'ld_library_path_lib')
+[51.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/hook/ld_library_path_lib.ps1'
+[51.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/hook/ld_library_path_lib.dsv'
+[51.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/hook/ld_library_path_lib.sh'
+[51.874s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers/bin'
+[51.874s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib/pkgconfig/franka_example_controllers.pc'
+[51.874s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib/python3.10/site-packages'
+[51.874s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers/bin'
+[51.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.ps1'
+[51.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv'
+[51.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.sh'
+[51.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.bash'
+[51.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.zsh'
+[51.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/colcon-core/packages/franka_example_controllers)
+[51.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_example_controllers)
+[51.980s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers' for CMake module files
+[51.981s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers' for CMake config files
+[51.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_example_controllers', 'cmake_prefix_path')
+[51.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/hook/cmake_prefix_path.ps1'
+[51.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/hook/cmake_prefix_path.dsv'
+[51.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/hook/cmake_prefix_path.sh'
+[52.000s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib'
+[52.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_example_controllers', 'ld_library_path_lib')
+[52.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/hook/ld_library_path_lib.ps1'
+[52.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/hook/ld_library_path_lib.dsv'
+[52.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/hook/ld_library_path_lib.sh'
+[52.014s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers/bin'
+[52.014s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib/pkgconfig/franka_example_controllers.pc'
+[52.014s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib/python3.10/site-packages'
+[52.014s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/franka_example_controllers/bin'
+[52.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.ps1'
+[52.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv'
+[52.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.sh'
+[52.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.bash'
+[52.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.zsh'
+[52.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/franka_example_controllers/share/colcon-core/packages/franka_example_controllers)
+[52.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control' returned '2': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/cartesian_impedance_control -- -j20 -l20
+[52.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartesian_impedance_control)
+[52.976s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/cartesian_impedance_control' for CMake module files
+[52.976s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/cartesian_impedance_control' for CMake config files
+[52.976s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/bin'
+[52.976s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/lib/pkgconfig/cartesian_impedance_control.pc'
+[52.976s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/lib/python3.10/site-packages'
+[52.976s] Level 1:colcon.colcon_core.environment:checking '/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/bin'
+[52.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/package.ps1'
+[52.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/package.dsv'
+[52.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/package.sh'
+[52.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/package.bash'
+[52.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/package.zsh'
+[52.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/colcon-core/packages/cartesian_impedance_control)
+[52.996s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[52.996s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[52.996s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[52.996s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[53.008s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[53.008s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[53.008s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[53.017s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[53.025s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/curdin/franka_ros2_ws/install/local_setup.ps1'
+[53.026s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/curdin/franka_ros2_ws/install/_local_setup_util_ps1.py'
+[53.026s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/curdin/franka_ros2_ws/install/setup.ps1'
+[53.034s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/curdin/franka_ros2_ws/install/local_setup.sh'
+[53.035s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/curdin/franka_ros2_ws/install/_local_setup_util_sh.py'
+[53.035s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/curdin/franka_ros2_ws/install/setup.sh'
+[53.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/curdin/franka_ros2_ws/install/local_setup.bash'
+[53.043s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/curdin/franka_ros2_ws/install/setup.bash'
+[53.051s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/curdin/franka_ros2_ws/install/local_setup.zsh'
+[53.051s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/curdin/franka_ros2_ws/install/setup.zsh'

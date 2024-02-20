@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/CMakeLists.txt" does not match the source "/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

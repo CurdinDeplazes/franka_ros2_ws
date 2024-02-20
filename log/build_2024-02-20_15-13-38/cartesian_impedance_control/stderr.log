@@ -1,0 +1,18 @@
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/test/test_load_move_to_start_example_controller.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cartesian_impedance_control_test_load_move_to_start.dir/build.make:76: CMakeFiles/cartesian_impedance_control_test_load_move_to_start.dir/test/test_load_move_to_start_example_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:236: CMakeFiles/cartesian_impedance_control_test_load_move_to_start.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/test/test_gravity_compensation_example.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cartesian_impedance_control_gravity_test.dir/build.make:76: CMakeFiles/cartesian_impedance_control_gravity_test.dir/test/test_gravity_compensation_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/cartesian_impedance_control_gravity_test.dir/all] Error 2
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/test/test_load_gravity_compensation_controller.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cartesian_impedance_control_test.dir/build.make:76: CMakeFiles/cartesian_impedance_control_test.dir/test/test_load_gravity_compensation_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/cartesian_impedance_control_test.dir/all] Error 2
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/test/test_move_to_start_example_controller.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/build.make:76: CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

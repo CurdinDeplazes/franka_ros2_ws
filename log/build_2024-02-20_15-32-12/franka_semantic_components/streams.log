@@ -1,0 +1,46 @@
+[0.030s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_semantic_components': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_semantic_components -- -j20 -l20
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target franka_semantic_components[0m
+[0.064s] [ 11%] Built target gmock_main
+[0.065s] [ 27%] Built target gmock
+[0.068s] [ 55%] Built target franka_semantic_components
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target franka_semantic_component_interface_test[0m
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target test_franka_robot_model[0m
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target test_franka_robot_state[0m
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target franka_cartesian_velocity_interface_test[0m
+[0.088s] [ 83%] Built target franka_semantic_component_interface_test
+[0.088s] [ 83%] Built target test_franka_robot_model
+[0.088s] [ 88%] Built target franka_cartesian_velocity_interface_test
+[0.089s] [100%] Built target test_franka_robot_state
+[0.127s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_semantic_components' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_semantic_components -- -j20 -l20
+[0.205s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_semantic_components': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_semantic_components
+[0.211s] -- Install configuration: "Release"
+[0.211s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/lib/libfranka_semantic_components.so
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/include
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_cartesian_velocity_interface.hpp
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_semantic_component_interface.hpp
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_state.hpp
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/library_path.sh
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/library_path.dsv
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/package_run_dependencies/franka_semantic_components
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/parent_prefix_path/franka_semantic_components
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/ament_prefix_path.sh
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/ament_prefix_path.dsv
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/path.sh
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/path.dsv
+[0.212s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.bash
+[0.213s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.sh
+[0.213s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.zsh
+[0.213s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.dsv
+[0.213s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.dsv
+[0.213s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/packages/franka_semantic_components
+[0.213s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.213s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_libraries-extras.cmake
+[0.213s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.213s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig.cmake
+[0.213s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig-version.cmake
+[0.213s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.xml
+[0.213s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_semantic_components' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_semantic_components

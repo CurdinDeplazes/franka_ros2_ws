@@ -1,0 +1,41 @@
+[  6%] Built target franka_example_controllers_parameters
+[ 18%] Built target gmock_main
+[ 37%] Built target gmock
+[ 50%] Built target cartesian_impedance_control
+[ 62%] Built target cartesian_impedance_control_test_load_move_to_start
+[ 75%] Built target cartesian_impedance_control_test
+[35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_move_to_start_test[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/cartesian_impedance_control_gravity_test.dir/test/test_gravity_compensation_example.cpp.o[0m
+[ 93%] Built target cartesian_impedance_control_move_to_start_test
+[100%] [32m[1mLinking CXX executable cartesian_impedance_control_gravity_test[0m
+[100%] Built target cartesian_impedance_control_gravity_test
+-- Install configuration: "Release"
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/franka_example_controllers_parameters
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/franka_example_controllers_parameters/franka_example_controllers_parameters.hpp
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cartesian_impedance_control.xml
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/lib/libcartesian_impedance_control.so
+-- Set runtime path of "/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/lib/libcartesian_impedance_control.so" to ""
+-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/cartesian_impedance_control
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/cartesian_impedance_control/cartesian_impedance_controller.hpp
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/library_path.sh
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/library_path.dsv
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/ament_index/resource_index/package_run_dependencies/cartesian_impedance_control
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/ament_index/resource_index/parent_prefix_path/cartesian_impedance_control
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/ament_prefix_path.sh
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/ament_prefix_path.dsv
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/path.sh
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/path.dsv
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/local_setup.bash
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/local_setup.sh
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/local_setup.zsh
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/local_setup.dsv
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/package.dsv
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/ament_index/resource_index/packages/cartesian_impedance_control
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/ament_index/resource_index/controller_interface__pluginlib__plugin/cartesian_impedance_control
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/cartesian_impedance_controlConfig.cmake
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/cartesian_impedance_controlConfig-version.cmake
+-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/package.xml

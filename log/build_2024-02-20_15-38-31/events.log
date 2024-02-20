@@ -1,0 +1,283 @@
+[0.000000] (-) TimerEvent: {}
+[0.000085] (-) JobUnselected: {'identifier': 'franka_bringup'}
+[0.000100] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.000110] (-) JobUnselected: {'identifier': 'franka_example_controllers'}
+[0.000117] (-) JobUnselected: {'identifier': 'franka_gripper'}
+[0.000126] (-) JobUnselected: {'identifier': 'franka_hardware'}
+[0.000133] (-) JobUnselected: {'identifier': 'franka_moveit_config'}
+[0.000140] (-) JobUnselected: {'identifier': 'franka_msgs'}
+[0.000147] (-) JobUnselected: {'identifier': 'franka_robot_state_broadcaster'}
+[0.000154] (-) JobUnselected: {'identifier': 'franka_semantic_components'}
+[0.000161] (-) JobUnselected: {'identifier': 'integration_launch_testing'}
+[0.000168] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000178] (cartesian_impedance_control) JobQueued: {'identifier': 'cartesian_impedance_control', 'dependencies': OrderedDict([('franka_msgs', '/home/curdin/franka_ros2_ws/install/franka_msgs'), ('franka_hardware', '/home/curdin/franka_ros2_ws/install/franka_hardware'), ('franka_semantic_components', '/home/curdin/franka_ros2_ws/install/franka_semantic_components')])}
+[0.000191] (cartesian_impedance_control) JobStarted: {'identifier': 'cartesian_impedance_control'}
+[0.039378] (cartesian_impedance_control) JobProgress: {'identifier': 'cartesian_impedance_control', 'progress': 'cmake'}
+[0.039422] (cartesian_impedance_control) Command: {'cmd': ['/usr/bin/cmake', '/home/curdin/franka_ros2_ws/src/cartesian_impedance_control', '-DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/cartesian_impedance_control'], 'cwd': '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'curdin'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/curdin'), ('OLDPWD', '/home/curdin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'curdin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'curdin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/curdin-Legion-5-15IAH7H:@/tmp/.ICE-unix/2638,unix/curdin-Legion-5-15IAH7H:/tmp/.ICE-unix/2638'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fa353a68_fc90_4a1d_bb08_47527cc0628b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRFBJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2795'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/cartesian_impedance_control:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/cartesian_impedance_control:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble')]), 'shell': False}
+[0.047748] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099382] (-) TimerEvent: {}
+[0.128022] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.143898] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.145217] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.148384] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.154311] (cartesian_impedance_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.162504] (cartesian_impedance_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.194940] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.195954] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199481] (-) TimerEvent: {}
+[0.260779] (cartesian_impedance_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299575] (-) TimerEvent: {}
+[0.346200] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found controller_interface: 2.32.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.399751] (-) TimerEvent: {}
+[0.499991] (-) TimerEvent: {}
+[0.600218] (-) TimerEvent: {}
+[0.700479] (-) TimerEvent: {}
+[0.713038] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found franka_msgs: 0.1.8 (/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)\n'}
+[0.758609] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found franka_semantic_components: 0.1.0 (/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)\n'}
+[0.800656] (-) TimerEvent: {}
+[0.900987] (-) TimerEvent: {}
+[0.974659] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.3.7 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[0.974893] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.001057] (-) TimerEvent: {}
+[1.101376] (-) TimerEvent: {}
+[1.201721] (-) TimerEvent: {}
+[1.302091] (-) TimerEvent: {}
+[1.362120] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found ament_cmake_clang_format: 0.12.10 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)\n'}
+[1.362290] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.12.8 (/opt/ros/humble/share/ament_cmake_copyright/cmake)\n'}
+[1.362396] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[1.362733] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[1.362944] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.12.8 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)\n'}
+[1.363113] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[1.363306] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found ament_cmake_xmllint: 0.12.8 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)\n'}
+[1.363522] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.363729] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found controller_manager: 2.37.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.402264] (-) TimerEvent: {}
+[1.502480] (-) TimerEvent: {}
+[1.523361] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.37.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.524463] (cartesian_impedance_control) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.525525] (cartesian_impedance_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.525654] (cartesian_impedance_control) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.602617] (-) TimerEvent: {}
+[1.702838] (-) TimerEvent: {}
+[1.803097] (-) TimerEvent: {}
+[1.832766] (cartesian_impedance_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.882296] (cartesian_impedance_control) StdoutLine: {'line': b'-- Generating done\n'}
+[1.883777] (cartesian_impedance_control) StdoutLine: {'line': b'-- Build files have been written to: /home/curdin/franka_ros2_ws/build/cartesian_impedance_control\n'}
+[1.890340] (cartesian_impedance_control) CommandEnded: {'returncode': 0}
+[1.890616] (cartesian_impedance_control) JobProgress: {'identifier': 'cartesian_impedance_control', 'progress': 'build'}
+[1.891924] (cartesian_impedance_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control', '--', '-j20', '-l20'], 'cwd': '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'curdin'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/curdin'), ('OLDPWD', '/home/curdin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'curdin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'curdin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/curdin-Legion-5-15IAH7H:@/tmp/.ICE-unix/2638,unix/curdin-Legion-5-15IAH7H:/tmp/.ICE-unix/2638'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fa353a68_fc90_4a1d_bb08_47527cc0628b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRFBJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2795'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/cartesian_impedance_control:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/cartesian_impedance_control:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble')]), 'shell': False}
+[1.903212] (-) TimerEvent: {}
+[1.915100] (cartesian_impedance_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock_main\x1b[0m\n'}
+[1.915598] (cartesian_impedance_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock\x1b[0m\n'}
+[1.921057] (cartesian_impedance_control) StdoutLine: {'line': b'[  6%] Built target franka_example_controllers_parameters\n'}
+[1.922981] (cartesian_impedance_control) StdoutLine: {'line': b'[ 18%] Built target gmock_main\n'}
+[1.924277] (cartesian_impedance_control) StdoutLine: {'line': b'[ 37%] Built target gmock\n'}
+[1.927376] (cartesian_impedance_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartesian_impedance_control\x1b[0m\n'}
+[1.930772] (cartesian_impedance_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_test\x1b[0m\n'}
+[1.930901] (cartesian_impedance_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_test_load_move_to_start\x1b[0m\n'}
+[1.940871] (cartesian_impedance_control) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/cartesian_impedance_control.dir/src/cartesian_impedance_controller.cpp.o\x1b[0m\n'}
+[1.942793] (cartesian_impedance_control) StdoutLine: {'line': b'[ 68%] Built target cartesian_impedance_control_test_load_move_to_start\n'}
+[1.942856] (cartesian_impedance_control) StdoutLine: {'line': b'[ 68%] Built target cartesian_impedance_control_test\n'}
+[2.003451] (-) TimerEvent: {}
+[2.103819] (-) TimerEvent: {}
+[2.204160] (-) TimerEvent: {}
+[2.304483] (-) TimerEvent: {}
+[2.404805] (-) TimerEvent: {}
+[2.505137] (-) TimerEvent: {}
+[2.605474] (-) TimerEvent: {}
+[2.705788] (-) TimerEvent: {}
+[2.806110] (-) TimerEvent: {}
+[2.906425] (-) TimerEvent: {}
+[3.006675] (-) TimerEvent: {}
+[3.106952] (-) TimerEvent: {}
+[3.207207] (-) TimerEvent: {}
+[3.307493] (-) TimerEvent: {}
+[3.407808] (-) TimerEvent: {}
+[3.508125] (-) TimerEvent: {}
+[3.608447] (-) TimerEvent: {}
+[3.708761] (-) TimerEvent: {}
+[3.809085] (-) TimerEvent: {}
+[3.909400] (-) TimerEvent: {}
+[4.009622] (-) TimerEvent: {}
+[4.109884] (-) TimerEvent: {}
+[4.210207] (-) TimerEvent: {}
+[4.310556] (-) TimerEvent: {}
+[4.410771] (-) TimerEvent: {}
+[4.511028] (-) TimerEvent: {}
+[4.611350] (-) TimerEvent: {}
+[4.711677] (-) TimerEvent: {}
+[4.811996] (-) TimerEvent: {}
+[4.912315] (-) TimerEvent: {}
+[5.012636] (-) TimerEvent: {}
+[5.112966] (-) TimerEvent: {}
+[5.213294] (-) TimerEvent: {}
+[5.313622] (-) TimerEvent: {}
+[5.413950] (-) TimerEvent: {}
+[5.514200] (-) TimerEvent: {}
+[5.614544] (-) TimerEvent: {}
+[5.714768] (-) TimerEvent: {}
+[5.815053] (-) TimerEvent: {}
+[5.915377] (-) TimerEvent: {}
+[6.015696] (-) TimerEvent: {}
+[6.116015] (-) TimerEvent: {}
+[6.216332] (-) TimerEvent: {}
+[6.316656] (-) TimerEvent: {}
+[6.416992] (-) TimerEvent: {}
+[6.517318] (-) TimerEvent: {}
+[6.617643] (-) TimerEvent: {}
+[6.717966] (-) TimerEvent: {}
+[6.818313] (-) TimerEvent: {}
+[6.918606] (-) TimerEvent: {}
+[7.018833] (-) TimerEvent: {}
+[7.119165] (-) TimerEvent: {}
+[7.219486] (-) TimerEvent: {}
+[7.319809] (-) TimerEvent: {}
+[7.420139] (-) TimerEvent: {}
+[7.520456] (-) TimerEvent: {}
+[7.620781] (-) TimerEvent: {}
+[7.721106] (-) TimerEvent: {}
+[7.821449] (-) TimerEvent: {}
+[7.921774] (-) TimerEvent: {}
+[8.022095] (-) TimerEvent: {}
+[8.122411] (-) TimerEvent: {}
+[8.222670] (-) TimerEvent: {}
+[8.322932] (-) TimerEvent: {}
+[8.423187] (-) TimerEvent: {}
+[8.523495] (-) TimerEvent: {}
+[8.623821] (-) TimerEvent: {}
+[8.724148] (-) TimerEvent: {}
+[8.824466] (-) TimerEvent: {}
+[8.924787] (-) TimerEvent: {}
+[9.025118] (-) TimerEvent: {}
+[9.125439] (-) TimerEvent: {}
+[9.225759] (-) TimerEvent: {}
+[9.326090] (-) TimerEvent: {}
+[9.426415] (-) TimerEvent: {}
+[9.526649] (-) TimerEvent: {}
+[9.626907] (-) TimerEvent: {}
+[9.727167] (-) TimerEvent: {}
+[9.827482] (-) TimerEvent: {}
+[9.927830] (-) TimerEvent: {}
+[10.028157] (-) TimerEvent: {}
+[10.128471] (-) TimerEvent: {}
+[10.228795] (-) TimerEvent: {}
+[10.329127] (-) TimerEvent: {}
+[10.429441] (-) TimerEvent: {}
+[10.529757] (-) TimerEvent: {}
+[10.630109] (-) TimerEvent: {}
+[10.730423] (-) TimerEvent: {}
+[10.830681] (-) TimerEvent: {}
+[10.930931] (-) TimerEvent: {}
+[11.031194] (-) TimerEvent: {}
+[11.131516] (-) TimerEvent: {}
+[11.231841] (-) TimerEvent: {}
+[11.332164] (-) TimerEvent: {}
+[11.432482] (-) TimerEvent: {}
+[11.532793] (-) TimerEvent: {}
+[11.633046] (-) TimerEvent: {}
+[11.733361] (-) TimerEvent: {}
+[11.833687] (-) TimerEvent: {}
+[11.934011] (-) TimerEvent: {}
+[12.034330] (-) TimerEvent: {}
+[12.134599] (-) TimerEvent: {}
+[12.234822] (-) TimerEvent: {}
+[12.335076] (-) TimerEvent: {}
+[12.435395] (-) TimerEvent: {}
+[12.535704] (-) TimerEvent: {}
+[12.636016] (-) TimerEvent: {}
+[12.736327] (-) TimerEvent: {}
+[12.836632] (-) TimerEvent: {}
+[12.936971] (-) TimerEvent: {}
+[13.037302] (-) TimerEvent: {}
+[13.137610] (-) TimerEvent: {}
+[13.237910] (-) TimerEvent: {}
+[13.338220] (-) TimerEvent: {}
+[13.438531] (-) TimerEvent: {}
+[13.538741] (-) TimerEvent: {}
+[13.639008] (-) TimerEvent: {}
+[13.739307] (-) TimerEvent: {}
+[13.839618] (-) TimerEvent: {}
+[13.939928] (-) TimerEvent: {}
+[14.040243] (-) TimerEvent: {}
+[14.140547] (-) TimerEvent: {}
+[14.240846] (-) TimerEvent: {}
+[14.341155] (-) TimerEvent: {}
+[14.441457] (-) TimerEvent: {}
+[14.541761] (-) TimerEvent: {}
+[14.642076] (-) TimerEvent: {}
+[14.742381] (-) TimerEvent: {}
+[14.842626] (-) TimerEvent: {}
+[14.942839] (-) TimerEvent: {}
+[15.043079] (-) TimerEvent: {}
+[15.143389] (-) TimerEvent: {}
+[15.243693] (-) TimerEvent: {}
+[15.343935] (-) TimerEvent: {}
+[15.444238] (-) TimerEvent: {}
+[15.544583] (-) TimerEvent: {}
+[15.644899] (-) TimerEvent: {}
+[15.745222] (-) TimerEvent: {}
+[15.845533] (-) TimerEvent: {}
+[15.945841] (-) TimerEvent: {}
+[16.046139] (-) TimerEvent: {}
+[16.146455] (-) TimerEvent: {}
+[16.246662] (-) TimerEvent: {}
+[16.346950] (-) TimerEvent: {}
+[16.447195] (-) TimerEvent: {}
+[16.547503] (-) TimerEvent: {}
+[16.647808] (-) TimerEvent: {}
+[16.748122] (-) TimerEvent: {}
+[16.848435] (-) TimerEvent: {}
+[16.948742] (-) TimerEvent: {}
+[17.049064] (-) TimerEvent: {}
+[17.149369] (-) TimerEvent: {}
+[17.249679] (-) TimerEvent: {}
+[17.349992] (-) TimerEvent: {}
+[17.450306] (-) TimerEvent: {}
+[17.504036] (cartesian_impedance_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libcartesian_impedance_control.so\x1b[0m\n'}
+[17.550529] (-) TimerEvent: {}
+[17.644650] (cartesian_impedance_control) StdoutLine: {'line': b'[ 75%] Built target cartesian_impedance_control\n'}
+[17.650604] (-) TimerEvent: {}
+[17.651285] (cartesian_impedance_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_gravity_test\x1b[0m\n'}
+[17.651365] (cartesian_impedance_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_move_to_start_test\x1b[0m\n'}
+[17.662102] (cartesian_impedance_control) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable cartesian_impedance_control_gravity_test\x1b[0m\n'}
+[17.663584] (cartesian_impedance_control) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable cartesian_impedance_control_move_to_start_test\x1b[0m\n'}
+[17.750701] (-) TimerEvent: {}
+[17.778483] (cartesian_impedance_control) StdoutLine: {'line': b'[ 93%] Built target cartesian_impedance_control_gravity_test\n'}
+[17.782179] (cartesian_impedance_control) StdoutLine: {'line': b'[100%] Built target cartesian_impedance_control_move_to_start_test\n'}
+[17.790150] (cartesian_impedance_control) CommandEnded: {'returncode': 0}
+[17.818961] (cartesian_impedance_control) JobProgress: {'identifier': 'cartesian_impedance_control', 'progress': 'install'}
+[17.824025] (cartesian_impedance_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control'], 'cwd': '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'curdin'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/curdin'), ('OLDPWD', '/home/curdin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'curdin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'curdin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/curdin-Legion-5-15IAH7H:@/tmp/.ICE-unix/2638,unix/curdin-Legion-5-15IAH7H:/tmp/.ICE-unix/2638'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fa353a68_fc90_4a1d_bb08_47527cc0628b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRFBJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2795'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/cartesian_impedance_control:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/cartesian_impedance_control:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble')]), 'shell': False}
+[17.828530] (cartesian_impedance_control) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[17.828615] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/franka_example_controllers_parameters\n'}
+[17.828648] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/franka_example_controllers_parameters/franka_example_controllers_parameters.hpp\n'}
+[17.828677] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cartesian_impedance_control.xml\n'}
+[17.828704] (cartesian_impedance_control) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/lib/libcartesian_impedance_control.so\n'}
+[17.829865] (cartesian_impedance_control) StdoutLine: {'line': b'-- Set runtime path of "/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/lib/libcartesian_impedance_control.so" to ""\n'}
+[17.829896] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include\n'}
+[17.829923] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/cartesian_impedance_control\n'}
+[17.829947] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/cartesian_impedance_control/cartesian_impedance_controller.hpp\n'}
+[17.829975] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/library_path.sh\n'}
+[17.830022] (cartesian_impedance_control) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/library_path.dsv\n'}
+[17.830089] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/ament_index/resource_index/package_run_dependencies/cartesian_impedance_control\n'}
+[17.830115] (cartesian_impedance_control) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/ament_index/resource_index/parent_prefix_path/cartesian_impedance_control\n'}
+[17.830142] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/ament_prefix_path.sh\n'}
+[17.830169] (cartesian_impedance_control) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/ament_prefix_path.dsv\n'}
+[17.830195] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/path.sh\n'}
+[17.830222] (cartesian_impedance_control) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/path.dsv\n'}
+[17.830249] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/local_setup.bash\n'}
+[17.830274] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/local_setup.sh\n'}
+[17.830300] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/local_setup.zsh\n'}
+[17.830326] (cartesian_impedance_control) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/local_setup.dsv\n'}
+[17.830352] (cartesian_impedance_control) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/package.dsv\n'}
+[17.830378] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/ament_index/resource_index/packages/cartesian_impedance_control\n'}
+[17.830403] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/ament_index/resource_index/controller_interface__pluginlib__plugin/cartesian_impedance_control\n'}
+[17.830430] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.830592] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.830624] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.830651] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/cartesian_impedance_controlConfig.cmake\n'}
+[17.830677] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/cartesian_impedance_controlConfig-version.cmake\n'}
+[17.830708] (cartesian_impedance_control) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/package.xml\n'}
+[17.831312] (cartesian_impedance_control) CommandEnded: {'returncode': 0}
+[17.851276] (-) TimerEvent: {}
+[17.930703] (cartesian_impedance_control) JobEnded: {'identifier': 'cartesian_impedance_control', 'rc': 0}
+[17.931514] (-) EventReactorShutdown: {}

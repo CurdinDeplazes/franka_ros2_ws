@@ -1,0 +1,371 @@
+[0.000000] (-) TimerEvent: {}
+[0.000079] (-) JobUnselected: {'identifier': 'franka_bringup'}
+[0.000095] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.000104] (-) JobUnselected: {'identifier': 'franka_gripper'}
+[0.000112] (-) JobUnselected: {'identifier': 'franka_hardware'}
+[0.000119] (-) JobUnselected: {'identifier': 'franka_moveit_config'}
+[0.000126] (-) JobUnselected: {'identifier': 'franka_msgs'}
+[0.000133] (-) JobUnselected: {'identifier': 'franka_robot_state_broadcaster'}
+[0.000140] (-) JobUnselected: {'identifier': 'franka_semantic_components'}
+[0.000148] (-) JobUnselected: {'identifier': 'integration_launch_testing'}
+[0.000155] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000163] (franka_example_controllers) JobQueued: {'identifier': 'franka_example_controllers', 'dependencies': OrderedDict([('franka_msgs', '/home/curdin/franka_ros2_ws/install/franka_msgs'), ('franka_hardware', '/home/curdin/franka_ros2_ws/install/franka_hardware'), ('franka_semantic_components', '/home/curdin/franka_ros2_ws/install/franka_semantic_components')])}
+[0.000177] (franka_example_controllers) JobStarted: {'identifier': 'franka_example_controllers'}
+[0.034195] (franka_example_controllers) JobProgress: {'identifier': 'franka_example_controllers', 'progress': 'cmake'}
+[0.034846] (franka_example_controllers) JobProgress: {'identifier': 'franka_example_controllers', 'progress': 'build'}
+[0.034874] (franka_example_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/curdin/franka_ros2_ws/build/franka_example_controllers', '--', '-j20', '-l20'], 'cwd': '/home/curdin/franka_ros2_ws/build/franka_example_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'curdin'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/curdin'), ('OLDPWD', '/home/curdin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'curdin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'curdin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/curdin-Legion-5-15IAH7H:@/tmp/.ICE-unix/2638,unix/curdin-Legion-5-15IAH7H:/tmp/.ICE-unix/2638'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/41b99dec_6b86_4281_aa6d_e00c9e267a45'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRFBJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.264'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/curdin/franka_ros2_ws/build/franka_example_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble')]), 'shell': False}
+[0.051402] (franka_example_controllers) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099633] (-) TimerEvent: {}
+[0.128915] (franka_example_controllers) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.144775] (franka_example_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.146015] (franka_example_controllers) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.149194] (franka_example_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.155223] (franka_example_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.163602] (franka_example_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.194369] (franka_example_controllers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.195209] (franka_example_controllers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199811] (-) TimerEvent: {}
+[0.259810] (franka_example_controllers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299979] (-) TimerEvent: {}
+[0.343889] (franka_example_controllers) StdoutLine: {'line': b'-- Found controller_interface: 2.32.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.400147] (-) TimerEvent: {}
+[0.500418] (-) TimerEvent: {}
+[0.600727] (-) TimerEvent: {}
+[0.698339] (franka_example_controllers) StdoutLine: {'line': b'-- Found franka_msgs: 0.1.8 (/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)\n'}
+[0.700888] (-) TimerEvent: {}
+[0.743220] (franka_example_controllers) StdoutLine: {'line': b'-- Found franka_semantic_components: 0.1.0 (/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)\n'}
+[0.801060] (-) TimerEvent: {}
+[0.901346] (-) TimerEvent: {}
+[0.958787] (franka_example_controllers) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.3.7 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[0.958984] (franka_example_controllers) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.001408] (-) TimerEvent: {}
+[1.101572] (-) TimerEvent: {}
+[1.201811] (-) TimerEvent: {}
+[1.302118] (-) TimerEvent: {}
+[1.344627] (franka_example_controllers) StdoutLine: {'line': b'-- Found ament_cmake_clang_format: 0.12.10 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)\n'}
+[1.344775] (franka_example_controllers) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.12.8 (/opt/ros/humble/share/ament_cmake_copyright/cmake)\n'}
+[1.344980] (franka_example_controllers) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[1.345216] (franka_example_controllers) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[1.345492] (franka_example_controllers) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.12.8 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)\n'}
+[1.345705] (franka_example_controllers) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[1.345892] (franka_example_controllers) StdoutLine: {'line': b'-- Found ament_cmake_xmllint: 0.12.8 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)\n'}
+[1.346104] (franka_example_controllers) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.346336] (franka_example_controllers) StdoutLine: {'line': b'-- Found controller_manager: 2.37.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.402285] (-) TimerEvent: {}
+[1.502556] (-) TimerEvent: {}
+[1.503891] (franka_example_controllers) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.37.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.505155] (franka_example_controllers) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.506225] (franka_example_controllers) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.506415] (franka_example_controllers) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.602746] (-) TimerEvent: {}
+[1.703056] (-) TimerEvent: {}
+[1.803357] (-) TimerEvent: {}
+[1.809442] (franka_example_controllers) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.859670] (franka_example_controllers) StdoutLine: {'line': b'-- Generating done\n'}
+[1.861019] (franka_example_controllers) StdoutLine: {'line': b'-- Build files have been written to: /home/curdin/franka_ros2_ws/build/franka_example_controllers\n'}
+[1.878255] (franka_example_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock_main\x1b[0m\n'}
+[1.878504] (franka_example_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock\x1b[0m\n'}
+[1.883757] (franka_example_controllers) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/curdin/franka_ros2_ws/build/franka_example_controllers/franka_example_controllers_parameters/include//franka_example_controllers_parameters.hpp /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/model_example_controller_parameters.yaml `\x1b[0m\n'}
+[1.886272] (franka_example_controllers) StdoutLine: {'line': b'[ 12%] Built target gmock_main\n'}
+[1.886947] (franka_example_controllers) StdoutLine: {'line': b'[ 25%] Built target gmock\n'}
+[1.893328] (franka_example_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target franka_example_controllers_test\x1b[0m\n'}
+[1.893415] (franka_example_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target franka_example_controllers_test_load_move_to_start\x1b[0m\n'}
+[1.903533] (-) TimerEvent: {}
+[1.904141] (franka_example_controllers) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers_test_load_move_to_start.dir/test/test_load_move_to_start_example_controller.cpp.o\x1b[0m\n'}
+[1.904229] (franka_example_controllers) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers_test.dir/test/test_load_gravity_compensation_controller.cpp.o\x1b[0m\n'}
+[1.964964] (franka_example_controllers) StdoutLine: {'line': b'[ 33%] Built target franka_example_controllers_parameters\n'}
+[1.975620] (franka_example_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target franka_example_controllers\x1b[0m\n'}
+[1.997505] (franka_example_controllers) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o\x1b[0m\n'}
+[1.998304] (franka_example_controllers) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o\x1b[0m\n'}
+[1.999044] (franka_example_controllers) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o\x1b[0m\n'}
+[2.000175] (franka_example_controllers) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o\x1b[0m\n'}
+[2.001555] (franka_example_controllers) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o\x1b[0m\n'}
+[2.003487] (franka_example_controllers) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o\x1b[0m\n'}
+[2.003668] (-) TimerEvent: {}
+[2.004038] (franka_example_controllers) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o\x1b[0m\n'}
+[2.005159] (franka_example_controllers) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o\x1b[0m\n'}
+[2.005655] (franka_example_controllers) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o\x1b[0m\n'}
+[2.103832] (-) TimerEvent: {}
+[2.204332] (-) TimerEvent: {}
+[2.304879] (-) TimerEvent: {}
+[2.405425] (-) TimerEvent: {}
+[2.505897] (-) TimerEvent: {}
+[2.606356] (-) TimerEvent: {}
+[2.706793] (-) TimerEvent: {}
+[2.807253] (-) TimerEvent: {}
+[2.907718] (-) TimerEvent: {}
+[3.008160] (-) TimerEvent: {}
+[3.108646] (-) TimerEvent: {}
+[3.209113] (-) TimerEvent: {}
+[3.309591] (-) TimerEvent: {}
+[3.410021] (-) TimerEvent: {}
+[3.510457] (-) TimerEvent: {}
+[3.610915] (-) TimerEvent: {}
+[3.711372] (-) TimerEvent: {}
+[3.811800] (-) TimerEvent: {}
+[3.912248] (-) TimerEvent: {}
+[4.012710] (-) TimerEvent: {}
+[4.113153] (-) TimerEvent: {}
+[4.213628] (-) TimerEvent: {}
+[4.314080] (-) TimerEvent: {}
+[4.414532] (-) TimerEvent: {}
+[4.515012] (-) TimerEvent: {}
+[4.615485] (-) TimerEvent: {}
+[4.715940] (-) TimerEvent: {}
+[4.816414] (-) TimerEvent: {}
+[4.916854] (-) TimerEvent: {}
+[5.017324] (-) TimerEvent: {}
+[5.117806] (-) TimerEvent: {}
+[5.218245] (-) TimerEvent: {}
+[5.318657] (-) TimerEvent: {}
+[5.419098] (-) TimerEvent: {}
+[5.519532] (-) TimerEvent: {}
+[5.619965] (-) TimerEvent: {}
+[5.720402] (-) TimerEvent: {}
+[5.820976] (-) TimerEvent: {}
+[5.921845] (-) TimerEvent: {}
+[6.022426] (-) TimerEvent: {}
+[6.123191] (-) TimerEvent: {}
+[6.223772] (-) TimerEvent: {}
+[6.324214] (-) TimerEvent: {}
+[6.424610] (-) TimerEvent: {}
+[6.525008] (-) TimerEvent: {}
+[6.625425] (-) TimerEvent: {}
+[6.725831] (-) TimerEvent: {}
+[6.826216] (-) TimerEvent: {}
+[6.926599] (-) TimerEvent: {}
+[7.027098] (-) TimerEvent: {}
+[7.127807] (-) TimerEvent: {}
+[7.228232] (-) TimerEvent: {}
+[7.328705] (-) TimerEvent: {}
+[7.429228] (-) TimerEvent: {}
+[7.529602] (-) TimerEvent: {}
+[7.629937] (-) TimerEvent: {}
+[7.730359] (-) TimerEvent: {}
+[7.770533] (franka_example_controllers) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable franka_example_controllers_test\x1b[0m\n'}
+[7.830504] (-) TimerEvent: {}
+[7.918858] (franka_example_controllers) StdoutLine: {'line': b'[ 75%] Built target franka_example_controllers_test\n'}
+[7.930721] (-) TimerEvent: {}
+[8.031125] (-) TimerEvent: {}
+[8.131515] (-) TimerEvent: {}
+[8.231913] (-) TimerEvent: {}
+[8.332302] (-) TimerEvent: {}
+[8.432572] (-) TimerEvent: {}
+[8.532957] (-) TimerEvent: {}
+[8.633303] (-) TimerEvent: {}
+[8.733539] (-) TimerEvent: {}
+[8.833798] (-) TimerEvent: {}
+[8.934130] (-) TimerEvent: {}
+[9.034467] (-) TimerEvent: {}
+[9.120079] (franka_example_controllers) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX executable franka_example_controllers_test_load_move_to_start\x1b[0m\n'}
+[9.134598] (-) TimerEvent: {}
+[9.231210] (franka_example_controllers) StdoutLine: {'line': b'[ 79%] Built target franka_example_controllers_test_load_move_to_start\n'}
+[9.234768] (-) TimerEvent: {}
+[9.335046] (-) TimerEvent: {}
+[9.435395] (-) TimerEvent: {}
+[9.535738] (-) TimerEvent: {}
+[9.636079] (-) TimerEvent: {}
+[9.736399] (-) TimerEvent: {}
+[9.836743] (-) TimerEvent: {}
+[9.937081] (-) TimerEvent: {}
+[10.037349] (-) TimerEvent: {}
+[10.137570] (-) TimerEvent: {}
+[10.237848] (-) TimerEvent: {}
+[10.338160] (-) TimerEvent: {}
+[10.438506] (-) TimerEvent: {}
+[10.538847] (-) TimerEvent: {}
+[10.639165] (-) TimerEvent: {}
+[10.739505] (-) TimerEvent: {}
+[10.839851] (-) TimerEvent: {}
+[10.940163] (-) TimerEvent: {}
+[11.040505] (-) TimerEvent: {}
+[11.140831] (-) TimerEvent: {}
+[11.241168] (-) TimerEvent: {}
+[11.341429] (-) TimerEvent: {}
+[11.441710] (-) TimerEvent: {}
+[11.542025] (-) TimerEvent: {}
+[11.642372] (-) TimerEvent: {}
+[11.742715] (-) TimerEvent: {}
+[11.843067] (-) TimerEvent: {}
+[11.943419] (-) TimerEvent: {}
+[12.043771] (-) TimerEvent: {}
+[12.144121] (-) TimerEvent: {}
+[12.244466] (-) TimerEvent: {}
+[12.344798] (-) TimerEvent: {}
+[12.445143] (-) TimerEvent: {}
+[12.545370] (-) TimerEvent: {}
+[12.645612] (-) TimerEvent: {}
+[12.745871] (-) TimerEvent: {}
+[12.846182] (-) TimerEvent: {}
+[12.946501] (-) TimerEvent: {}
+[13.046849] (-) TimerEvent: {}
+[13.147183] (-) TimerEvent: {}
+[13.247494] (-) TimerEvent: {}
+[13.347839] (-) TimerEvent: {}
+[13.448183] (-) TimerEvent: {}
+[13.548497] (-) TimerEvent: {}
+[13.648840] (-) TimerEvent: {}
+[13.749154] (-) TimerEvent: {}
+[13.849401] (-) TimerEvent: {}
+[13.949635] (-) TimerEvent: {}
+[14.049887] (-) TimerEvent: {}
+[14.150196] (-) TimerEvent: {}
+[14.250512] (-) TimerEvent: {}
+[14.350832] (-) TimerEvent: {}
+[14.451147] (-) TimerEvent: {}
+[14.551393] (-) TimerEvent: {}
+[14.651743] (-) TimerEvent: {}
+[14.752072] (-) TimerEvent: {}
+[14.852388] (-) TimerEvent: {}
+[14.952637] (-) TimerEvent: {}
+[15.052953] (-) TimerEvent: {}
+[15.153273] (-) TimerEvent: {}
+[15.253509] (-) TimerEvent: {}
+[15.353752] (-) TimerEvent: {}
+[15.454071] (-) TimerEvent: {}
+[15.554406] (-) TimerEvent: {}
+[15.654739] (-) TimerEvent: {}
+[15.755039] (-) TimerEvent: {}
+[15.855373] (-) TimerEvent: {}
+[15.955712] (-) TimerEvent: {}
+[16.056042] (-) TimerEvent: {}
+[16.156357] (-) TimerEvent: {}
+[16.256684] (-) TimerEvent: {}
+[16.357019] (-) TimerEvent: {}
+[16.457337] (-) TimerEvent: {}
+[16.557545] (-) TimerEvent: {}
+[16.657808] (-) TimerEvent: {}
+[16.758139] (-) TimerEvent: {}
+[16.858471] (-) TimerEvent: {}
+[16.958812] (-) TimerEvent: {}
+[17.059157] (-) TimerEvent: {}
+[17.159464] (-) TimerEvent: {}
+[17.259778] (-) TimerEvent: {}
+[17.360087] (-) TimerEvent: {}
+[17.460392] (-) TimerEvent: {}
+[17.560708] (-) TimerEvent: {}
+[17.661011] (-) TimerEvent: {}
+[17.761333] (-) TimerEvent: {}
+[17.861538] (-) TimerEvent: {}
+[17.961781] (-) TimerEvent: {}
+[18.062103] (-) TimerEvent: {}
+[18.162428] (-) TimerEvent: {}
+[18.262743] (-) TimerEvent: {}
+[18.363068] (-) TimerEvent: {}
+[18.463374] (-) TimerEvent: {}
+[18.563689] (-) TimerEvent: {}
+[18.663998] (-) TimerEvent: {}
+[18.764316] (-) TimerEvent: {}
+[18.864619] (-) TimerEvent: {}
+[18.964938] (-) TimerEvent: {}
+[19.065242] (-) TimerEvent: {}
+[19.165446] (-) TimerEvent: {}
+[19.265690] (-) TimerEvent: {}
+[19.366002] (-) TimerEvent: {}
+[19.466319] (-) TimerEvent: {}
+[19.566639] (-) TimerEvent: {}
+[19.666960] (-) TimerEvent: {}
+[19.767269] (-) TimerEvent: {}
+[19.867508] (-) TimerEvent: {}
+[19.967844] (-) TimerEvent: {}
+[20.068197] (-) TimerEvent: {}
+[20.168486] (-) TimerEvent: {}
+[20.268883] (-) TimerEvent: {}
+[20.369246] (-) TimerEvent: {}
+[20.469623] (-) TimerEvent: {}
+[20.569983] (-) TimerEvent: {}
+[20.670344] (-) TimerEvent: {}
+[20.722124] (franka_example_controllers) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libfranka_example_controllers.so\x1b[0m\n'}
+[20.770569] (-) TimerEvent: {}
+[20.868681] (franka_example_controllers) StdoutLine: {'line': b'[ 83%] Built target franka_example_controllers\n'}
+[20.870797] (-) TimerEvent: {}
+[20.875197] (franka_example_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target franka_example_controllers_gravity_test\x1b[0m\n'}
+[20.875341] (franka_example_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target franka_example_controllers_move_to_start_test\x1b[0m\n'}
+[20.884683] (franka_example_controllers) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers_gravity_test.dir/test/test_gravity_compensation_example.cpp.o\x1b[0m\n'}
+[20.886460] (franka_example_controllers) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o\x1b[0m\n'}
+[20.971020] (-) TimerEvent: {}
+[21.071387] (-) TimerEvent: {}
+[21.171760] (-) TimerEvent: {}
+[21.272130] (-) TimerEvent: {}
+[21.372502] (-) TimerEvent: {}
+[21.472868] (-) TimerEvent: {}
+[21.573237] (-) TimerEvent: {}
+[21.673568] (-) TimerEvent: {}
+[21.773943] (-) TimerEvent: {}
+[21.874313] (-) TimerEvent: {}
+[21.974687] (-) TimerEvent: {}
+[22.075053] (-) TimerEvent: {}
+[22.175427] (-) TimerEvent: {}
+[22.275802] (-) TimerEvent: {}
+[22.376168] (-) TimerEvent: {}
+[22.476543] (-) TimerEvent: {}
+[22.576919] (-) TimerEvent: {}
+[22.677297] (-) TimerEvent: {}
+[22.777685] (-) TimerEvent: {}
+[22.878103] (-) TimerEvent: {}
+[22.978511] (-) TimerEvent: {}
+[23.078948] (-) TimerEvent: {}
+[23.179372] (-) TimerEvent: {}
+[23.279791] (-) TimerEvent: {}
+[23.380234] (-) TimerEvent: {}
+[23.480664] (-) TimerEvent: {}
+[23.562257] (franka_example_controllers) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable franka_example_controllers_gravity_test\x1b[0m\n'}
+[23.580800] (-) TimerEvent: {}
+[23.681227] (-) TimerEvent: {}
+[23.747584] (franka_example_controllers) StdoutLine: {'line': b'[ 95%] Built target franka_example_controllers_gravity_test\n'}
+[23.781402] (-) TimerEvent: {}
+[23.881808] (-) TimerEvent: {}
+[23.982194] (-) TimerEvent: {}
+[24.082597] (-) TimerEvent: {}
+[24.183001] (-) TimerEvent: {}
+[24.267695] (franka_example_controllers) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable franka_example_controllers_move_to_start_test\x1b[0m\n'}
+[24.283226] (-) TimerEvent: {}
+[24.383598] (-) TimerEvent: {}
+[24.410661] (franka_example_controllers) StdoutLine: {'line': b'[100%] Built target franka_example_controllers_move_to_start_test\n'}
+[24.422992] (franka_example_controllers) CommandEnded: {'returncode': 0}
+[24.463320] (franka_example_controllers) JobProgress: {'identifier': 'franka_example_controllers', 'progress': 'install'}
+[24.468431] (franka_example_controllers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/curdin/franka_ros2_ws/build/franka_example_controllers'], 'cwd': '/home/curdin/franka_ros2_ws/build/franka_example_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'curdin'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/curdin/franka_ros2_ws/install/integration_launch_testing/lib:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib:/home/curdin/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/curdin'), ('OLDPWD', '/home/curdin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'curdin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'curdin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/curdin-Legion-5-15IAH7H:@/tmp/.ICE-unix/2638,unix/curdin-Legion-5-15IAH7H:/tmp/.ICE-unix/2638'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/41b99dec_6b86_4281_aa6d_e00c9e267a45'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRFBJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.264'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/curdin/franka_ros2_ws/build/franka_example_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/home/curdin/franka_ros2_ws/install/joint_trajectory_controller:/home/curdin/franka_ros2_ws/install/integration_launch_testing:/home/curdin/franka_ros2_ws/install/franka_bringup:/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/curdin/franka_ros2_ws/install/franka_example_controllers:/home/curdin/franka_ros2_ws/install/franka_moveit_config:/home/curdin/franka_ros2_ws/install/franka_gripper:/home/curdin/franka_ros2_ws/install/franka_description:/opt/ros/humble')]), 'shell': False}
+[24.473000] (franka_example_controllers) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[24.473112] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers_parameters\n'}
+[24.473214] (franka_example_controllers) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers_parameters/franka_example_controllers_parameters.hpp\n'}
+[24.473280] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/franka_example_controllers.xml\n'}
+[24.473478] (franka_example_controllers) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/lib/libfranka_example_controllers.so\n'}
+[24.474620] (franka_example_controllers) StdoutLine: {'line': b'-- Set runtime path of "/home/curdin/franka_ros2_ws/install/franka_example_controllers/lib/libfranka_example_controllers.so" to ""\n'}
+[24.474800] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include\n'}
+[24.474840] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers\n'}
+[24.474869] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/motion_generator.hpp\n'}
+[24.475020] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/elbow_example_controller.hpp\n'}
+[24.475114] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/joint_position_example_controller.hpp\n'}
+[24.475145] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/move_to_start_example_controller.hpp\n'}
+[24.475174] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/joint_velocity_example_controller.hpp\n'}
+[24.475202] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/visibility_control.h\n'}
+[24.475228] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/model_example_controller.hpp\n'}
+[24.475253] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_impedance_controller.hpp\n'}
+[24.475285] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_velocity_example_controller.hpp\n'}
+[24.475311] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/gravity_compensation_example_controller.hpp\n'}
+[24.475336] (franka_example_controllers) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.sh\n'}
+[24.475361] (franka_example_controllers) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.dsv\n'}
+[24.475384] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/package_run_dependencies/franka_example_controllers\n'}
+[24.475410] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/parent_prefix_path/franka_example_controllers\n'}
+[24.475433] (franka_example_controllers) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.sh\n'}
+[24.475458] (franka_example_controllers) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.dsv\n'}
+[24.475481] (franka_example_controllers) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.sh\n'}
+[24.475505] (franka_example_controllers) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.dsv\n'}
+[24.475529] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.bash\n'}
+[24.475553] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.sh\n'}
+[24.475577] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.zsh\n'}
+[24.475601] (franka_example_controllers) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.dsv\n'}
+[24.475625] (franka_example_controllers) StdoutLine: {'line': b'-- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv\n'}
+[24.475648] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/packages/franka_example_controllers\n'}
+[24.475673] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_example_controllers\n'}
+[24.475697] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.475722] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.475746] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.475771] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig.cmake\n'}
+[24.475795] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig-version.cmake\n'}
+[24.475821] (franka_example_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.xml\n'}
+[24.476413] (franka_example_controllers) CommandEnded: {'returncode': 0}
+[24.484280] (-) TimerEvent: {}
+[24.584680] (-) TimerEvent: {}
+[24.589860] (franka_example_controllers) JobEnded: {'identifier': 'franka_example_controllers', 'rc': 0}
+[24.590093] (-) EventReactorShutdown: {}

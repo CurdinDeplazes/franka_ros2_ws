@@ -1,0 +1,52 @@
+[0.100s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster -- -j20 -l20
+[0.131s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster/franka_robot_state_broadcaster_parameters/include//franka_robot_state_broadcaster_parameters.hpp /home/curdin/franka_ros2_ws/src/franka_ros2/franka_robot_state_broadcaster/src/franka_robot_state_broadcaster_parameters.yaml `[0m
+[0.131s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[0.135s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[0.135s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[0.285s] [ 33%] Built target franka_robot_state_broadcaster_parameters
+[0.309s] [ 41%] [32mBuilding CXX object CMakeFiles/franka_robot_state_broadcaster.dir/src/franka_robot_state_broadcaster.cpp.o[0m
+[2.588s] [ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.664s] [ 50%] Built target gmock_main
+[10.239s] [ 58%] [32m[1mLinking CXX shared library libfranka_robot_state_broadcaster.so[0m
+[10.572s] [ 58%] Built target franka_robot_state_broadcaster
+[14.730s] [ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[14.787s] [ 66%] Built target gmock
+[14.814s] [ 75%] [32mBuilding CXX object CMakeFiles/franka_robot_state_broadcaster_test.dir/test/test_franka_robot_state_broadcaster.cpp.o[0m
+[14.814s] [ 83%] [32mBuilding CXX object CMakeFiles/test_load_franka_robot_state_broadcaster.dir/test/test_load_franka_robot_state_broadcaster.cpp.o[0m
+[22.518s] [ 91%] [32m[1mLinking CXX executable franka_robot_state_broadcaster_test[0m
+[23.337s] [ 91%] Built target franka_robot_state_broadcaster_test
+[23.812s] [100%] [32m[1mLinking CXX executable test_load_franka_robot_state_broadcaster[0m
+[24.341s] [100%] Built target test_load_franka_robot_state_broadcaster
+[24.358s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster -- -j20 -l20
+[24.406s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster
+[24.415s] -- Install configuration: "Release"
+[24.416s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster_parameters
+[24.416s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster_parameters/franka_robot_state_broadcaster_parameters.hpp
+[24.416s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/franka_robot_state_broadcaster.xml
+[24.416s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib/libfranka_robot_state_broadcaster.so
+[24.417s] -- Set runtime path of "/home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/lib/libfranka_robot_state_broadcaster.so" to ""
+[24.417s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/include
+[24.417s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster
+[24.418s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_state_broadcaster.hpp
+[24.418s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.sh
+[24.418s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.dsv
+[24.418s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/franka_robot_state_broadcaster
+[24.419s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/franka_robot_state_broadcaster
+[24.419s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.sh
+[24.419s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.dsv
+[24.419s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.sh
+[24.419s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.dsv
+[24.419s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.bash
+[24.419s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.sh
+[24.419s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.zsh
+[24.419s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.dsv
+[24.420s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.dsv
+[24.420s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/packages/franka_robot_state_broadcaster
+[24.420s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_robot_state_broadcaster
+[24.420s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.420s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+[24.420s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.420s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig.cmake
+[24.420s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig-version.cmake
+[24.420s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.xml
+[24.423s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_robot_state_broadcaster

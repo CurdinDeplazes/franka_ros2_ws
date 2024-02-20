@@ -1,0 +1,105 @@
+[0.031s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/curdin/franka_ros2_ws/src/franka_ros2/franka_gripper -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/franka_gripper
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.158s] -- Detecting C compile features
+[0.158s] -- Detecting C compile features - done
+[0.160s] -- Detecting CXX compiler ABI info
+[0.213s] -- Detecting CXX compiler ABI info - done
+[0.218s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.218s] -- Detecting CXX compile features
+[0.219s] -- Detecting CXX compile features - done
+[0.220s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.343s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.410s] -- Found franka_msgs: 0.1.8 (/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+[0.440s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.444s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.451s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.639s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.679s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.681s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.754s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.772s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.803s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.809s] -- Looking for pthread.h
+[0.856s] -- Looking for pthread.h - found
+[0.856s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.912s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.913s] -- Found Threads: TRUE  
+[1.001s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.022s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.066s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.077s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.164s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.431s] -- Found ament_cmake_clang_format: 0.12.10 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[1.432s] -- Found ament_cmake_copyright: 0.12.8 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[1.433s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.434s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.435s] -- Found ament_cmake_lint_cmake: 0.12.8 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[1.436s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.437s] -- Found ament_cmake_xmllint: 0.12.8 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[1.484s] -- Configuring done
+[1.495s] -- Generating done
+[1.496s] -- Build files have been written to: /home/curdin/franka_ros2_ws/build/franka_gripper
+[1.504s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/curdin/franka_ros2_ws/src/franka_ros2/franka_gripper -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/franka_gripper
+[1.505s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_gripper -- -j20 -l20
+[1.539s] [ 50%] [32mBuilding CXX object CMakeFiles/gripper_server.dir/src/gripper_action_server.cpp.o[0m
+[1.539s] [ 50%] [32mBuilding CXX object CMakeFiles/franka_gripper_node.dir/rclcpp_components/node_main_franka_gripper_node.cpp.o[0m
+[1.545s] [ 50%] Built target ament_cmake_python_copy_franka_gripper
+[1.810s] running egg_info
+[1.811s] creating franka_gripper.egg-info
+[1.812s] writing franka_gripper.egg-info/PKG-INFO
+[1.812s] writing dependency_links to franka_gripper.egg-info/dependency_links.txt
+[1.813s] writing top-level names to franka_gripper.egg-info/top_level.txt
+[1.813s] writing manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[1.817s] reading manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[1.818s] writing manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[1.893s] [ 50%] Built target ament_cmake_python_build_franka_gripper_egg
+[5.286s] [ 75%] [32m[1mLinking CXX executable franka_gripper_node[0m
+[5.390s] [ 75%] Built target franka_gripper_node
+[17.045s] [100%] [32m[1mLinking CXX shared library libgripper_server.so[0m
+[17.326s] [100%] Built target gripper_server
+[17.342s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_gripper -- -j20 -l20
+[17.384s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_gripper
+[17.394s] -- Install configuration: "Release"
+[17.394s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/lib/franka_gripper/franka_gripper_node
+[17.394s] -- Set runtime path of "/home/curdin/franka_ros2_ws/install/franka_gripper/lib/franka_gripper/franka_gripper_node" to ""
+[17.395s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/lib/libgripper_server.so
+[17.397s] -- Set runtime path of "/home/curdin/franka_ros2_ws/install/franka_gripper/lib/libgripper_server.so" to ""
+[17.397s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper//launch
+[17.398s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper//launch/gripper.launch.py
+[17.398s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper//config
+[17.398s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper//config/franka_gripper_node.yaml
+[17.398s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/pythonpath.sh
+[17.398s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/pythonpath.dsv
+[17.398s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.1.8-py3.10.egg-info
+[17.398s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.1.8-py3.10.egg-info/top_level.txt
+[17.398s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.1.8-py3.10.egg-info/dependency_links.txt
+[17.398s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.1.8-py3.10.egg-info/PKG-INFO
+[17.399s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.1.8-py3.10.egg-info/SOURCES.txt
+[17.399s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper
+[17.399s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper/__init__.py
+[17.440s] Listing '/home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper'...
+[17.441s] Compiling '/home/curdin/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper/__init__.py'...
+[17.449s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/lib/franka_gripper/fake_gripper_state_publisher.py
+[17.450s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/ament_index/resource_index/package_run_dependencies/franka_gripper
+[17.450s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/ament_index/resource_index/parent_prefix_path/franka_gripper
+[17.450s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/ament_prefix_path.sh
+[17.451s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/ament_prefix_path.dsv
+[17.451s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/path.sh
+[17.451s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/path.dsv
+[17.451s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/local_setup.bash
+[17.451s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/local_setup.sh
+[17.451s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/local_setup.zsh
+[17.451s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/local_setup.dsv
+[17.451s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.dsv
+[17.451s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/ament_index/resource_index/packages/franka_gripper
+[17.452s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/ament_index/resource_index/rclcpp_components/franka_gripper
+[17.452s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/cmake/franka_gripperConfig.cmake
+[17.452s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/cmake/franka_gripperConfig-version.cmake
+[17.453s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.xml
+[17.455s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_gripper

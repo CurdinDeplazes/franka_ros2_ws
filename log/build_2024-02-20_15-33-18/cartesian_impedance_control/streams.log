@@ -1,0 +1,45 @@
+[0.078s] Invoking command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/cartesian_impedance_control -- -j20 -l20
+[0.107s] [  6%] Built target franka_example_controllers_parameters
+[0.109s] [ 18%] Built target gmock_main
+[0.114s] [ 37%] Built target gmock
+[0.126s] [ 50%] Built target cartesian_impedance_control
+[0.135s] [ 62%] Built target cartesian_impedance_control_test_load_move_to_start
+[0.135s] [ 75%] Built target cartesian_impedance_control_test
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target cartesian_impedance_control_move_to_start_test[0m
+[0.150s] [ 81%] [32mBuilding CXX object CMakeFiles/cartesian_impedance_control_gravity_test.dir/test/test_gravity_compensation_example.cpp.o[0m
+[0.155s] [ 93%] Built target cartesian_impedance_control_move_to_start_test
+[2.587s] [100%] [32m[1mLinking CXX executable cartesian_impedance_control_gravity_test[0m
+[2.695s] [100%] Built target cartesian_impedance_control_gravity_test
+[2.708s] Invoked command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/cartesian_impedance_control -- -j20 -l20
+[2.730s] Invoking command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/cartesian_impedance_control
+[2.735s] -- Install configuration: "Release"
+[2.735s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/franka_example_controllers_parameters
+[2.735s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/franka_example_controllers_parameters/franka_example_controllers_parameters.hpp
+[2.735s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cartesian_impedance_control.xml
+[2.735s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/lib/libcartesian_impedance_control.so
+[2.736s] -- Set runtime path of "/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/lib/libcartesian_impedance_control.so" to ""
+[2.736s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/cartesian_impedance_control
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/cartesian_impedance_control/cartesian_impedance_controller.hpp
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/library_path.sh
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/library_path.dsv
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/ament_index/resource_index/package_run_dependencies/cartesian_impedance_control
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/ament_index/resource_index/parent_prefix_path/cartesian_impedance_control
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/ament_prefix_path.sh
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/ament_prefix_path.dsv
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/path.sh
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/environment/path.dsv
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/local_setup.bash
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/local_setup.sh
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/local_setup.zsh
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/local_setup.dsv
+[2.737s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/package.dsv
+[2.738s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/ament_index/resource_index/packages/cartesian_impedance_control
+[2.738s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/ament_index/resource_index/controller_interface__pluginlib__plugin/cartesian_impedance_control
+[2.738s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.738s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/ament_cmake_export_libraries-extras.cmake
+[2.738s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.738s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/cartesian_impedance_controlConfig.cmake
+[2.738s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cmake/cartesian_impedance_controlConfig-version.cmake
+[2.738s] -- Installing: /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/package.xml
+[2.739s] Invoked command in '/home/curdin/franka_ros2_ws/build/cartesian_impedance_control' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/cartesian_impedance_control

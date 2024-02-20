@@ -1,0 +1,24 @@
+[ 13%] Built target gmock_main
+[ 26%] Built target cartesian_impedance_control
+[ 46%] Built target gmock
+[ 53%] [32mBuilding CXX object CMakeFiles/cartesian_impedance_control_gravity_test.dir/test/test_gravity_compensation_example.cpp.o[0m
+[ 66%] Built target cartesian_impedance_control_test
+[ 73%] [32mBuilding CXX object CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o[0m
+[ 86%] Built target cartesian_impedance_control_test_load_move_to_start
+In file included from [01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/test/test_gravity_compensation_example.cpp:19[m[K:
+[01m[K/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/test/gravity_compensation_example_controller.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kfranka_example_controllers/visibility_control.h: No such file or directory
+   20 | #include [01;31m[K"franka_example_controllers/visibility_control.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cartesian_impedance_control_gravity_test.dir/build.make:76: CMakeFiles/cartesian_impedance_control_gravity_test.dir/test/test_gravity_compensation_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/cartesian_impedance_control_gravity_test.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 93%] [32m[1mLinking CXX executable cartesian_impedance_control_move_to_start_test[0m
+/usr/bin/ld: CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o: warning: relocation against `_ZTVN26franka_example_controllers28MoveToStartExampleControllerE' in read-only section `.text'
+/usr/bin/ld: CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o: in function `MoveToStartExampleControllerTest::SetUp()':
+test_move_to_start_example_controller.cpp:(.text+0x12f): undefined reference to `vtable for franka_example_controllers::MoveToStartExampleController'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/build.make:315: cartesian_impedance_control_move_to_start_test] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/cartesian_impedance_control_move_to_start_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

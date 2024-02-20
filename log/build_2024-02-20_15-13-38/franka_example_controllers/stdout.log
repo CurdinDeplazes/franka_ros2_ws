@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[  4%] Built target franka_example_controllers_parameters
+[ 12%] Built target gmock_main
+[ 25%] Built target gmock
+[35m[1mConsolidate compiler generated dependencies of target franka_example_controllers_test[0m
+[35m[1mConsolidate compiler generated dependencies of target franka_example_controllers_test_load_move_to_start[0m
+[35m[1mConsolidate compiler generated dependencies of target franka_example_controllers[0m
+[ 33%] Built target franka_example_controllers_test
+[ 41%] Built target franka_example_controllers_test_load_move_to_start
+[ 83%] Built target franka_example_controllers
+[35m[1mConsolidate compiler generated dependencies of target franka_example_controllers_gravity_test[0m
+[35m[1mConsolidate compiler generated dependencies of target franka_example_controllers_move_to_start_test[0m
+[ 91%] Built target franka_example_controllers_gravity_test
+[100%] Built target franka_example_controllers_move_to_start_test

@@ -213,7 +213,7 @@ controller_interface::return_type CartesianImpedanceController::update(const rcl
   T = Lambda; // let robot behave with it's own physical inertia (How can we change the physical inertia and what does it mean?)
 
   //Hardcoded goal position as long as we don't have the goal state publisher
-  position_d_target_ = {0.5, 0.3, 0.5};
+  position_d_target_ = {0.5, -0.3, 0.5};
   double roll = -M_PI, pitch = 0, yaw = M_PI_2;
 
   orientation_d_target_ = Eigen::AngleAxisd(roll,  Eigen::Vector3d::UnitX())
