@@ -46,11 +46,13 @@ ament_target_dependencies(
         franka_semantic_components
 )
 
-generate_parameter_library(franka_example_controllers_parameters src/model_example_controller_parameters.yaml)
-target_link_libraries(${PROJECT_NAME} franka_example_controllers_parameters)
-
 pluginlib_export_plugin_description_file(
         controller_interface cartesian_impedance_control.xml)
+
+# generate_parameter_library(franka_example_controllers_parameters src/model_example_controller_parameters.yaml)
+# target_link_libraries(${PROJECT_NAME} franka_example_controllers_parameters)
+
+
 
 install(
         TARGETS
@@ -85,31 +87,6 @@ if(BUILD_TESTING)
     ament_flake8()
     ament_pep257()
     ament_xmllint()
-    ament_add_gmock(${PROJECT_NAME}_test
-        test/test_load_gravity_compensation_controller.cpp
-    )
-    target_include_directories(${PROJECT_NAME}_test PRIVATE include)
-    ament_target_dependencies(${PROJECT_NAME}_test
-        controller_manager
-        ros2_control_test_assets
-    )
-
-    ament_add_gmock(${PROJECT_NAME}_test_load_move_to_start
-        test/test_load_move_to_start_example_controller.cpp)
-    target_include_directories(${PROJECT_NAME}_test_load_move_to_start PRIVATE include)
-    ament_target_dependencies(${PROJECT_NAME}_test_load_move_to_start
-        controller_manager
-        ros2_control_test_assets
-    )
-
-
-    ament_add_gmock(${PROJECT_NAME}_gravity_test test/test_gravity_compensation_example.cpp)
-    target_include_directories(${PROJECT_NAME}_gravity_test PRIVATE include)
-    target_link_libraries(${PROJECT_NAME}_gravity_test ${PROJECT_NAME})
-
-    ament_add_gmock(${PROJECT_NAME}_move_to_start_test test/test_move_to_start_example_controller.cpp)
-    target_include_directories(${PROJECT_NAME}_move_to_start_test PRIVATE include)
-    target_link_libraries(${PROJECT_NAME}_move_to_start_test ${PROJECT_NAME})
 
     if(CHECK_TIDY)
         find_package(ament_cmake_clang_tidy REQUIRED)

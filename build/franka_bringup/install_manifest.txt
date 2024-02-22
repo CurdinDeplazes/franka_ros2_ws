@@ -1,7 +1,7 @@
 /home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/config/controllers.yaml
 /home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/cartesian_velocity_example_controller.launch.py
 /home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/joint_position_example_controller.launch.py
-/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/joint_impedance_example_controller.launch.py
+/home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/cartesian_impedance_controller.launch.py
 /home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/elbow_example_controller.launch.py
 /home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/gravity_compensation_example_controller.launch.py
 /home/curdin/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/model_example_controller.launch.py

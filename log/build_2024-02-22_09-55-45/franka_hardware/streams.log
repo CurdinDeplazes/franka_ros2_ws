@@ -1,0 +1,76 @@
+[0.062s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/curdin/franka_ros2_ws/src/franka_ros2/franka_hardware -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/franka_hardware
+[0.069s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.173s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.193s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.195s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.199s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.218s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.260s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.261s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.343s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.461s] -- Found franka_msgs: 0.1.8 (/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+[0.560s] -- Found hardware_interface: 2.37.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.899s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.972s] -- Found ament_cmake_clang_format: 0.12.10 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[0.973s] -- Found ament_cmake_copyright: 0.12.8 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[0.973s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.973s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[0.974s] -- Found ament_cmake_lint_cmake: 0.12.8 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[0.974s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[0.975s] -- Found ament_cmake_xmllint: 0.12.8 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[0.977s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.978s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.979s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.979s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.023s] -- Configuring done
+[1.078s] -- Generating done
+[1.080s] -- Build files have been written to: /home/curdin/franka_ros2_ws/build/franka_hardware
+[1.088s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/curdin/franka_ros2_ws/src/franka_ros2/franka_hardware -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/franka_hardware
+[1.089s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_hardware -- -j20 -l20
+[1.115s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[1.115s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[1.117s] [35m[1mConsolidate compiler generated dependencies of target franka_hardware[0m
+[1.124s] [ 12%] Built target gmock_main
+[1.126s] [ 31%] Built target gmock
+[1.134s] [ 62%] Built target franka_hardware
+[1.141s] [35m[1mConsolidate compiler generated dependencies of target franka_hardware_test[0m
+[1.141s] [35m[1mConsolidate compiler generated dependencies of target franka_hardware_command_interface_test[0m
+[1.142s] [35m[1mConsolidate compiler generated dependencies of target franka_hardware_robot_test[0m
+[1.155s] [ 75%] Built target franka_hardware_command_interface_test
+[1.155s] [ 93%] Built target franka_hardware_test
+[1.155s] [100%] Built target franka_hardware_robot_test
+[1.164s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_hardware -- -j20 -l20
+[1.187s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_hardware
+[1.192s] -- Install configuration: "Release"
+[1.192s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/franka_hardware.xml
+[1.192s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/lib/libfranka_hardware.so
+[1.192s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/include
+[1.192s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/include/franka_hardware
+[1.193s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/include/franka_hardware/franka_hardware_interface.hpp
+[1.193s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/include/franka_hardware/franka_param_service_server.hpp
+[1.193s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/include/franka_hardware/robot.hpp
+[1.193s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/include/franka_hardware/franka_executor.hpp
+[1.193s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/include/franka_hardware/model.hpp
+[1.193s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/library_path.sh
+[1.193s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/library_path.dsv
+[1.193s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/ament_index/resource_index/package_run_dependencies/franka_hardware
+[1.193s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/ament_index/resource_index/parent_prefix_path/franka_hardware
+[1.194s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.sh
+[1.194s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.dsv
+[1.194s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/path.sh
+[1.194s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/path.dsv
+[1.194s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.bash
+[1.194s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.sh
+[1.195s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.zsh
+[1.195s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.dsv
+[1.195s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.dsv
+[1.195s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/ament_index/resource_index/packages/franka_hardware
+[1.195s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/franka_hardware
+[1.195s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.195s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[1.195s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.195s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake
+[1.195s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig-version.cmake
+[1.195s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.xml
+[1.195s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_hardware

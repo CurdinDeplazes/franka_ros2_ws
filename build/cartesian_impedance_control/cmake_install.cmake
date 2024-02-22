@@ -43,10 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/franka_example_controllers_parameters" TYPE DIRECTORY FILES "/home/curdin/franka_ros2_ws/build/cartesian_impedance_control/franka_example_controllers_parameters/include/")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cartesian_impedance_control" TYPE FILE FILES "/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/cartesian_impedance_control.xml")
 endif()
 
@@ -158,13 +154,6 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cartesian_impedance_control" TYPE FILE FILES "/home/curdin/franka_ros2_ws/src/cartesian_impedance_control/package.xml")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/curdin/franka_ros2_ws/build/cartesian_impedance_control/gmock/cmake_install.cmake")
-  include("/home/curdin/franka_ros2_ws/build/cartesian_impedance_control/gtest/cmake_install.cmake")
-
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

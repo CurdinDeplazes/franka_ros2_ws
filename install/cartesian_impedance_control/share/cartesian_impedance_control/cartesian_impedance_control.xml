@@ -1,50 +1,8 @@
 <library path="cartesian_impedance_control">
-    <!-- <class name="cartesian_impedance_control/GravityCompensationExampleController"
-           type="cartesian_impedance_control::GravityCompensationExampleController" base_class_type="controller_interface::ControllerInterface">
-        <description>
-            The gravity compensation controller only sends zero torques so that the robot does gravity compensation
-        </description>
-    </class> -->
     <class name="cartesian_impedance_control/CartesianImpedanceController"
            type="cartesian_impedance_control::CartesianImpedanceController" base_class_type="controller_interface::ControllerInterface">
         <description>
-            The joint impedance example controller moves joint 4 and 5 in a very compliant periodic movement.
+            The cartesian imedance controller uses cartesian impedance control to bring the Robot to a desired position and orientation.
         </description>
     </class>
-    <!-- <class name="cartesian_impedance_control/JointVelocityExampleController"
-           type="cartesian_impedance_control::JointVelocityExampleController" base_class_type="controller_interface::ControllerInterface">
-        <description>
-            The joint velocity example controller moves joint 4 and 5 in a periodic movement.
-        </description>
-    </class>
-    <class name="cartesian_impedance_control/JointPositionExampleController"
-           type="cartesian_impedance_control::JointPositionExampleController" base_class_type="controller_interface::ControllerInterface">
-        <description>
-            The joint position example controller moves in a periodic movement.
-        </description>
-    </class>
-    <class name="cartesian_impedance_control/CartesianVelocityExampleController"
-           type="cartesian_impedance_control::CartesianVelocityExampleController" base_class_type="controller_interface::ControllerInterface">
-        <description>
-            The cartesian velocity example controller commands linear velocity with x and z components.
-        </description>
-    </class>
-    <class name="cartesian_impedance_control/ElbowExampleController"
-           type="cartesian_impedance_control::ElbowExampleController" base_class_type="controller_interface::ControllerInterface">
-        <description>
-            The elbow example controller commands elbow position with zero cartesian velocity. Nullspace of the robot is actuated.
-        </description>
-    </class>
-    <class name="cartesian_impedance_control/MoveToStartExampleController"
-           type="cartesian_impedance_control::MoveToStartExampleController" base_class_type="controller_interface::ControllerInterface">
-        <description>
-            The move to start example controller moves the robot into default pose.
-        </description>
-    </class>
-    <class name="cartesian_impedance_control/ModelExampleController"
-           type="cartesian_impedance_control::ModelExampleController" base_class_type="controller_interface::ControllerInterface">
-        <description>
-            The franka model example controller evaluates and prints the dynamic model of Franka Emika Robots.
-        </description>
-    </class> -->
 </library>

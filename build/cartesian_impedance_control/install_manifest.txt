@@ -1,4 +1,3 @@
-/home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/franka_example_controllers_parameters/franka_example_controllers_parameters.hpp
 /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/share/cartesian_impedance_control/cartesian_impedance_control.xml
 /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/lib/libcartesian_impedance_control.so
 /home/curdin/franka_ros2_ws/install/cartesian_impedance_control/include/cartesian_impedance_control/cartesian_impedance_controller.hpp

@@ -1,0 +1,90 @@
+[0.032s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/franka_example_controllers
+[0.040s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.146s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.168s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.170s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.174s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.234s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.235s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.318s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.422s] -- Found controller_interface: 2.32.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.854s] -- Found franka_msgs: 0.1.8 (/home/curdin/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+[0.918s] -- Found franka_semantic_components: 0.1.0 (/home/curdin/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+[1.178s] -- Found generate_parameter_library: 0.3.7 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.179s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.641s] -- Found ament_cmake_clang_format: 0.12.10 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[1.641s] -- Found ament_cmake_copyright: 0.12.8 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[1.641s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.641s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.641s] -- Found ament_cmake_lint_cmake: 0.12.8 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[1.642s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.642s] -- Found ament_cmake_xmllint: 0.12.8 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[1.642s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.643s] -- Found controller_manager: 2.37.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.834s] -- Found ros2_control_test_assets: 2.37.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.835s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.837s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.837s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.206s] -- Configuring done
+[2.274s] -- Generating done
+[2.276s] -- Build files have been written to: /home/curdin/franka_ros2_ws/build/franka_example_controllers
+[2.285s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers -DCMAKE_INSTALL_PREFIX=/home/curdin/franka_ros2_ws/install/franka_example_controllers
+[2.286s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_example_controllers -- -j20 -l20
+[2.313s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[2.313s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[2.319s] [  4%] Built target franka_example_controllers_parameters
+[2.322s] [ 12%] Built target gmock_main
+[2.324s] [ 25%] Built target gmock
+[2.332s] [35m[1mConsolidate compiler generated dependencies of target franka_example_controllers_test[0m
+[2.332s] [35m[1mConsolidate compiler generated dependencies of target franka_example_controllers_test_load_move_to_start[0m
+[2.333s] [35m[1mConsolidate compiler generated dependencies of target franka_example_controllers[0m
+[2.347s] [ 33%] Built target franka_example_controllers_test
+[2.347s] [ 41%] Built target franka_example_controllers_test_load_move_to_start
+[2.365s] [ 83%] Built target franka_example_controllers
+[2.373s] [35m[1mConsolidate compiler generated dependencies of target franka_example_controllers_gravity_test[0m
+[2.374s] [35m[1mConsolidate compiler generated dependencies of target franka_example_controllers_move_to_start_test[0m
+[2.387s] [ 91%] Built target franka_example_controllers_gravity_test
+[2.389s] [100%] Built target franka_example_controllers_move_to_start_test
+[2.397s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/curdin/franka_ros2_ws/build/franka_example_controllers -- -j20 -l20
+[2.435s] Invoking command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_example_controllers
+[2.440s] -- Install configuration: "Release"
+[2.440s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers_parameters
+[2.440s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers_parameters/franka_example_controllers_parameters.hpp
+[2.440s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/franka_example_controllers.xml
+[2.440s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/lib/libfranka_example_controllers.so
+[2.440s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include
+[2.441s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers
+[2.441s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/motion_generator.hpp
+[2.441s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/elbow_example_controller.hpp
+[2.441s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/joint_position_example_controller.hpp
+[2.441s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/move_to_start_example_controller.hpp
+[2.441s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/joint_velocity_example_controller.hpp
+[2.441s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/visibility_control.h
+[2.441s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/model_example_controller.hpp
+[2.441s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_impedance_controller.hpp
+[2.442s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_velocity_example_controller.hpp
+[2.442s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/gravity_compensation_example_controller.hpp
+[2.442s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.sh
+[2.442s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.dsv
+[2.442s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/package_run_dependencies/franka_example_controllers
+[2.442s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/parent_prefix_path/franka_example_controllers
+[2.442s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.sh
+[2.443s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.dsv
+[2.443s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.sh
+[2.444s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.dsv
+[2.444s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.bash
+[2.444s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.sh
+[2.444s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.zsh
+[2.445s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.dsv
+[2.445s] -- Installing: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv
+[2.445s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/packages/franka_example_controllers
+[2.445s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_example_controllers
+[2.445s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.446s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[2.446s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.446s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig.cmake
+[2.446s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig-version.cmake
+[2.446s] -- Up-to-date: /home/curdin/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.xml
+[2.447s] Invoked command in '/home/curdin/franka_ros2_ws/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components:/home/curdin/franka_ros2_ws/install/franka_hardware:/home/curdin/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/curdin/franka_ros2_ws/install/franka_semantic_components/lib:/home/curdin/franka_ros2_ws/install/franka_hardware/lib:/home/curdin/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curdin/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/curdin/franka_ros2_ws/build/franka_example_controllers
