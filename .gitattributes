@@ -1,3 +1,4 @@
+.vscode/browse.vc.db filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
 *.built_by filter=lfs diff=lfs merge=lfs -text
@@ -260,3 +261,4 @@
 /install/messages_fr3/share/ament_index/resource_index/parent_prefix_path/messages_fr3 filter=lfs diff=lfs merge=lfs -text
 /install/messages_fr3/share/ament_index/resource_index/rosidl_interfaces/messages_fr3 filter=lfs diff=lfs merge=lfs -text
 /install/messages_fr3/share/colcon-core/packages/messages_fr3 filter=lfs diff=lfs merge=lfs -text
+/gitignore filter=lfs diff=lfs merge=lfs -text
