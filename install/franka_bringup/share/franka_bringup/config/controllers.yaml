@@ -5,8 +5,8 @@ controller_manager:
     gravity_compensation_example_controller:
       type: franka_example_controllers/GravityCompensationExampleController
 
-    joint_impedance_example_controller:
-      type: franka_example_controllers/JointImpedanceExampleController
+    cartesian_impedance_controller:
+      type: franka_example_controllers/CartesianImpedanceController
 
     joint_velocity_example_controller:
       type: franka_example_controllers/JointVelocityExampleController
@@ -67,7 +67,7 @@ joint_trajectory_controller:
       panda_joint6: { p: 150., d: 10., i: 0., i_clamp: 1. }
       panda_joint7: { p: 50., d: 5., i: 0., i_clamp: 1. }
 
-joint_impedance_example_controller:
+cartesian_impedance_controller:
   ros__parameters:
     arm_id: panda
     k_gains:

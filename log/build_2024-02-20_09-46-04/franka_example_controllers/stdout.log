@@ -1,0 +1,7 @@
+[  6%] Built target franka_example_controllers_parameters
+[ 18%] Built target gmock_main
+[ 37%] Built target gmock
+[35m[1mConsolidate compiler generated dependencies of target franka_example_controllers[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_test.dir/test/test_load_gravity_compensation_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_test_load_move_to_start.dir/test/test_load_move_to_start_example_controller.cpp.o[0m
+[ 62%] Built target franka_example_controllers

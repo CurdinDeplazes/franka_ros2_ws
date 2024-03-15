@@ -327,221 +327,29 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-src/cartesian_velocity_example_controller.o: src/cartesian_velocity_example_controller.cpp.o
-.PHONY : src/cartesian_velocity_example_controller.o
+src/cartesian_impedance_controller.o: src/cartesian_impedance_controller.cpp.o
+.PHONY : src/cartesian_impedance_controller.o
 
 # target to build an object file
-src/cartesian_velocity_example_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o
-.PHONY : src/cartesian_velocity_example_controller.cpp.o
+src/cartesian_impedance_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.o
+.PHONY : src/cartesian_impedance_controller.cpp.o
 
-src/cartesian_velocity_example_controller.i: src/cartesian_velocity_example_controller.cpp.i
-.PHONY : src/cartesian_velocity_example_controller.i
-
-# target to preprocess a source file
-src/cartesian_velocity_example_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.i
-.PHONY : src/cartesian_velocity_example_controller.cpp.i
-
-src/cartesian_velocity_example_controller.s: src/cartesian_velocity_example_controller.cpp.s
-.PHONY : src/cartesian_velocity_example_controller.s
-
-# target to generate assembly for a file
-src/cartesian_velocity_example_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.s
-.PHONY : src/cartesian_velocity_example_controller.cpp.s
-
-src/elbow_example_controller.o: src/elbow_example_controller.cpp.o
-.PHONY : src/elbow_example_controller.o
-
-# target to build an object file
-src/elbow_example_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o
-.PHONY : src/elbow_example_controller.cpp.o
-
-src/elbow_example_controller.i: src/elbow_example_controller.cpp.i
-.PHONY : src/elbow_example_controller.i
+src/cartesian_impedance_controller.i: src/cartesian_impedance_controller.cpp.i
+.PHONY : src/cartesian_impedance_controller.i
 
 # target to preprocess a source file
-src/elbow_example_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.i
-.PHONY : src/elbow_example_controller.cpp.i
+src/cartesian_impedance_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.i
+.PHONY : src/cartesian_impedance_controller.cpp.i
 
-src/elbow_example_controller.s: src/elbow_example_controller.cpp.s
-.PHONY : src/elbow_example_controller.s
-
-# target to generate assembly for a file
-src/elbow_example_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.s
-.PHONY : src/elbow_example_controller.cpp.s
-
-src/gravity_compensation_example_controller.o: src/gravity_compensation_example_controller.cpp.o
-.PHONY : src/gravity_compensation_example_controller.o
-
-# target to build an object file
-src/gravity_compensation_example_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o
-.PHONY : src/gravity_compensation_example_controller.cpp.o
-
-src/gravity_compensation_example_controller.i: src/gravity_compensation_example_controller.cpp.i
-.PHONY : src/gravity_compensation_example_controller.i
-
-# target to preprocess a source file
-src/gravity_compensation_example_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.i
-.PHONY : src/gravity_compensation_example_controller.cpp.i
-
-src/gravity_compensation_example_controller.s: src/gravity_compensation_example_controller.cpp.s
-.PHONY : src/gravity_compensation_example_controller.s
+src/cartesian_impedance_controller.s: src/cartesian_impedance_controller.cpp.s
+.PHONY : src/cartesian_impedance_controller.s
 
 # target to generate assembly for a file
-src/gravity_compensation_example_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.s
-.PHONY : src/gravity_compensation_example_controller.cpp.s
-
-src/joint_impedance_example_controller.o: src/joint_impedance_example_controller.cpp.o
-.PHONY : src/joint_impedance_example_controller.o
-
-# target to build an object file
-src/joint_impedance_example_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/joint_impedance_example_controller.cpp.o
-.PHONY : src/joint_impedance_example_controller.cpp.o
-
-src/joint_impedance_example_controller.i: src/joint_impedance_example_controller.cpp.i
-.PHONY : src/joint_impedance_example_controller.i
-
-# target to preprocess a source file
-src/joint_impedance_example_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/joint_impedance_example_controller.cpp.i
-.PHONY : src/joint_impedance_example_controller.cpp.i
-
-src/joint_impedance_example_controller.s: src/joint_impedance_example_controller.cpp.s
-.PHONY : src/joint_impedance_example_controller.s
-
-# target to generate assembly for a file
-src/joint_impedance_example_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/joint_impedance_example_controller.cpp.s
-.PHONY : src/joint_impedance_example_controller.cpp.s
-
-src/joint_position_example_controller.o: src/joint_position_example_controller.cpp.o
-.PHONY : src/joint_position_example_controller.o
-
-# target to build an object file
-src/joint_position_example_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o
-.PHONY : src/joint_position_example_controller.cpp.o
-
-src/joint_position_example_controller.i: src/joint_position_example_controller.cpp.i
-.PHONY : src/joint_position_example_controller.i
-
-# target to preprocess a source file
-src/joint_position_example_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.i
-.PHONY : src/joint_position_example_controller.cpp.i
-
-src/joint_position_example_controller.s: src/joint_position_example_controller.cpp.s
-.PHONY : src/joint_position_example_controller.s
-
-# target to generate assembly for a file
-src/joint_position_example_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.s
-.PHONY : src/joint_position_example_controller.cpp.s
-
-src/joint_velocity_example_controller.o: src/joint_velocity_example_controller.cpp.o
-.PHONY : src/joint_velocity_example_controller.o
-
-# target to build an object file
-src/joint_velocity_example_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o
-.PHONY : src/joint_velocity_example_controller.cpp.o
-
-src/joint_velocity_example_controller.i: src/joint_velocity_example_controller.cpp.i
-.PHONY : src/joint_velocity_example_controller.i
-
-# target to preprocess a source file
-src/joint_velocity_example_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.i
-.PHONY : src/joint_velocity_example_controller.cpp.i
-
-src/joint_velocity_example_controller.s: src/joint_velocity_example_controller.cpp.s
-.PHONY : src/joint_velocity_example_controller.s
-
-# target to generate assembly for a file
-src/joint_velocity_example_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.s
-.PHONY : src/joint_velocity_example_controller.cpp.s
-
-src/model_example_controller.o: src/model_example_controller.cpp.o
-.PHONY : src/model_example_controller.o
-
-# target to build an object file
-src/model_example_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o
-.PHONY : src/model_example_controller.cpp.o
-
-src/model_example_controller.i: src/model_example_controller.cpp.i
-.PHONY : src/model_example_controller.i
-
-# target to preprocess a source file
-src/model_example_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.i
-.PHONY : src/model_example_controller.cpp.i
-
-src/model_example_controller.s: src/model_example_controller.cpp.s
-.PHONY : src/model_example_controller.s
-
-# target to generate assembly for a file
-src/model_example_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.s
-.PHONY : src/model_example_controller.cpp.s
-
-src/motion_generator.o: src/motion_generator.cpp.o
-.PHONY : src/motion_generator.o
-
-# target to build an object file
-src/motion_generator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o
-.PHONY : src/motion_generator.cpp.o
-
-src/motion_generator.i: src/motion_generator.cpp.i
-.PHONY : src/motion_generator.i
-
-# target to preprocess a source file
-src/motion_generator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.i
-.PHONY : src/motion_generator.cpp.i
-
-src/motion_generator.s: src/motion_generator.cpp.s
-.PHONY : src/motion_generator.s
-
-# target to generate assembly for a file
-src/motion_generator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.s
-.PHONY : src/motion_generator.cpp.s
-
-src/move_to_start_example_controller.o: src/move_to_start_example_controller.cpp.o
-.PHONY : src/move_to_start_example_controller.o
-
-# target to build an object file
-src/move_to_start_example_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o
-.PHONY : src/move_to_start_example_controller.cpp.o
-
-src/move_to_start_example_controller.i: src/move_to_start_example_controller.cpp.i
-.PHONY : src/move_to_start_example_controller.i
-
-# target to preprocess a source file
-src/move_to_start_example_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.i
-.PHONY : src/move_to_start_example_controller.cpp.i
-
-src/move_to_start_example_controller.s: src/move_to_start_example_controller.cpp.s
-.PHONY : src/move_to_start_example_controller.s
-
-# target to generate assembly for a file
-src/move_to_start_example_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.s
-.PHONY : src/move_to_start_example_controller.cpp.s
+src/cartesian_impedance_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/franka_example_controllers.dir/build.make CMakeFiles/franka_example_controllers.dir/src/cartesian_impedance_controller.cpp.s
+.PHONY : src/cartesian_impedance_controller.cpp.s
 
 test/test_gravity_compensation_example.o: test/test_gravity_compensation_example.cpp.o
 .PHONY : test/test_gravity_compensation_example.o
@@ -664,33 +472,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... src/cartesian_velocity_example_controller.o"
-	@echo "... src/cartesian_velocity_example_controller.i"
-	@echo "... src/cartesian_velocity_example_controller.s"
-	@echo "... src/elbow_example_controller.o"
-	@echo "... src/elbow_example_controller.i"
-	@echo "... src/elbow_example_controller.s"
-	@echo "... src/gravity_compensation_example_controller.o"
-	@echo "... src/gravity_compensation_example_controller.i"
-	@echo "... src/gravity_compensation_example_controller.s"
-	@echo "... src/joint_impedance_example_controller.o"
-	@echo "... src/joint_impedance_example_controller.i"
-	@echo "... src/joint_impedance_example_controller.s"
-	@echo "... src/joint_position_example_controller.o"
-	@echo "... src/joint_position_example_controller.i"
-	@echo "... src/joint_position_example_controller.s"
-	@echo "... src/joint_velocity_example_controller.o"
-	@echo "... src/joint_velocity_example_controller.i"
-	@echo "... src/joint_velocity_example_controller.s"
-	@echo "... src/model_example_controller.o"
-	@echo "... src/model_example_controller.i"
-	@echo "... src/model_example_controller.s"
-	@echo "... src/motion_generator.o"
-	@echo "... src/motion_generator.i"
-	@echo "... src/motion_generator.s"
-	@echo "... src/move_to_start_example_controller.o"
-	@echo "... src/move_to_start_example_controller.i"
-	@echo "... src/move_to_start_example_controller.s"
+	@echo "... src/cartesian_impedance_controller.o"
+	@echo "... src/cartesian_impedance_controller.i"
+	@echo "... src/cartesian_impedance_controller.s"
 	@echo "... test/test_gravity_compensation_example.o"
 	@echo "... test/test_gravity_compensation_example.i"
 	@echo "... test/test_gravity_compensation_example.s"

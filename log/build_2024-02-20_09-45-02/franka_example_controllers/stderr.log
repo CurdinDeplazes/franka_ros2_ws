@@ -1,0 +1,15 @@
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/test/test_gravity_compensation_example.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kfranka_example_controllers/gravity_compensation_example_controller.hpp: No such file or directory
+   19 | #include [01;31m[K"franka_example_controllers/gravity_compensation_example_controller.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/franka_example_controllers_gravity_test.dir/build.make:76: CMakeFiles/franka_example_controllers_gravity_test.dir/test/test_gravity_compensation_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/franka_example_controllers_gravity_test.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/test/test_move_to_start_example_controller.cpp:19[m[K:
+[01m[K/home/curdin/franka_ros2_ws/src/franka_ros2/franka_example_controllers/test/test_move_to_start_example_controller.hpp:23:10:[m[K [01;31m[Kfatal error: [m[Kfranka_example_controllers/move_to_start_example_controller.hpp: No such file or directory
+   23 | #include [01;31m[K"franka_example_controllers/move_to_start_example_controller.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/franka_example_controllers_move_to_start_test.dir/build.make:76: CMakeFiles/franka_example_controllers_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:322: CMakeFiles/franka_example_controllers_move_to_start_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
